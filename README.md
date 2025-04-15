@@ -1,4 +1,3 @@
-Video Link-List to every Aikido Kyu exam technique as HTML Matrix,
+Video HTML Link-List to every Aikido Kyu exam technique as listed in Matrix taken from https://www.aikido-foederation.de/
 
-as listed in Matrix taken from https://www.aikido-foederation.de/
-
+HTML / CSS / JS
