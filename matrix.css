@@ -1,0 +1,93 @@
+@media print {
+  @page {
+    size: A4 landscape;
+  }
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 0.9em;
+}
+
+table#matrix {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table#matrix th, table#matrix td {
+  border: 1px solid;
+}
+
+td.version {
+  font-size: 0.6em;
+  vertical-align: bottom;
+}
+
+td[data-angriff="7"], td[data-angriff="11"], td[data-angriff="23"], .eof {
+  border-right: 0.2em solid black !important;
+}
+
+td.waza {
+  font-size: 0.8em;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+}
+
+tr.angriff td {
+  writing-mode: sideways-lr;
+  text-orientation: sideways-right;
+  text-align: center;
+  min-width: 2.0em;
+}
+
+td.technik {
+  white-space: nowrap;
+  padding-right: 0.5em;
+  font-size: 0.9em;
+}
+
+td.kyu {
+  text-align: center;
+  min-width: 2.0em;
+}
+
+td.kyu-1 {
+  background-color: #996633;
+}
+
+td.kyu-2 {
+  background-color: #0099FF;
+}
+
+td.kyu-3 {
+  background-color: #00FF00;
+}
+
+td.kyu-4 {
+  background-color: #FF950E;
+}
+
+td.kyu-5 {
+  background-color: #FFFF00;
+}
+
+tr.angriff td.selected {
+  background-color: Cornsilk;
+}
+
+td.technik.selected {
+  background-color: Cornsilk;
+}
+
+a:visited {
+  color: black;
+}
+
+a {
+  color: black;
+}
