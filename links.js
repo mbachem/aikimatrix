@@ -36,8 +36,8 @@ let vidurl = {
 
   3 : {
     21 : {
-        "label" : "suwari waze - ryote dori - kokyo ho",
-        "url" : "https://www.youtube.com/watch?v=O7C433RP5Oc&t=105s"
+      "label" : "suwari waze - ryote dori - kokyo ho",
+      "url" : "https://www.youtube.com/watch?v=O7C433RP5Oc&t=105s"
     }
   },
 

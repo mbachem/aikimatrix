@@ -1,3 +1,8 @@
+/*
+ * roll your own video collection:
+ *   start here, and repleace links.js
+ */
+
 let vidurl = {
 
   1 : {
@@ -36,8 +41,8 @@ let vidurl = {
 
   3 : {
     21 : {
-        "label" : "suwari waze - ryote dori - kokyo ho",
-        "url" : ""
+      "label" : "suwari waze - ryote dori - kokyo ho",
+      "url" : ""
     }
   },
 
