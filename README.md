@@ -1,7 +1,7 @@
-Video HTML Link-List to every Aikido Kyu exam technique as listed in Matrix taken from https://www.aikido-foederation.de/
+Video HTML link list for all Aikido Kyu exam techniques according to the matrix from https://www.aikido-foederation.de/
 
-Try now: https://mbachem.github.io/aikimatrix/, or see the matrix in action: https://youtu.be/bb-9G5xBfYk
+Try it now: https://mbachem.github.io/aikimatrix/, or see the matrix in action: https://youtu.be/bb-9G5xBfYk
 
-Please respect GPL-3.0 license: you are allowed to download, publish, modify, etc, as long as you link to the original sources, and publish your changes under GPL v3 license
+Please note the GPL 3.0 license: Downloading, publishing, editing, etc. is permitted as long as you link to the original sources and publish your changes under the GPL v3 license.
 
-You have your own video collection you like to see linked? Just fork this project, and start over with links.templates.js
+Do you have your own video collection that you'd like to see linked? Simply fork this project and restart with links.templates.js.
