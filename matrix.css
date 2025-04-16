@@ -57,6 +57,11 @@ td.kyu {
   cursor: pointer;
 }
 
+td.kyu.missing {
+  border: 3px dotted red !important;
+  cursor: default;
+}
+
 .kyu-1 {
   background-color: #996633;
 }
@@ -77,11 +82,7 @@ td.kyu {
   background-color: #FFFF00;
 }
 
-a:visited {
+a, a:visited {
   color: black;
-}
-
-a {
-  color: black;
-  /* text-decoration: none; */
+  text-decoration: none;
 }

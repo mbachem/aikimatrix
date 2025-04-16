@@ -34,7 +34,9 @@ $(function() {
 
     if (
       (typeof(vidurl[angriff]) !== "undefined") &&
-      (typeof(vidurl[angriff][technik]) !== "undefined")
+      (typeof(vidurl[angriff][technik]) !== "undefined") &&
+      (typeof(vidurl[angriff][technik]["url"]) !== "undefined") &&
+      vidurl[angriff][technik]["url"].length > 0
     ) {
       $(this).html(
         '<a ' + 
@@ -49,6 +51,9 @@ $(function() {
       $(this).attr("title", vidurl[angriff][technik]["label"]).click(function() {
         $('a', $(this)).get(0).click();
       });
+    } else {
+      $(this).attr("title", "missing");
+      $(this).addClass("missing")
     }
   });
 });
