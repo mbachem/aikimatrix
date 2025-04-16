@@ -44,6 +44,10 @@ $(function() {
           kyu +
         '</a>'
       );
+
+      $(this).attr("title", vidurl[angriff][technik]["label"]).click(function() {
+        $('a', $(this)).get(0).click();
+      });
     }
   });
 });

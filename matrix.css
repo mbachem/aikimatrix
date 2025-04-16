@@ -54,6 +54,7 @@ td.technik {
 td.kyu {
   text-align: center;
   min-width: 2.0em;
+  cursor: pointer;
 }
 
 .kyu-1 {
@@ -82,4 +83,5 @@ a:visited {
 
 a {
   color: black;
+  /* text-decoration: none; */
 }
