@@ -56,32 +56,24 @@ td.kyu {
   min-width: 2.0em;
 }
 
-td.kyu-1 {
+.kyu-1 {
   background-color: #996633;
 }
 
-td.kyu-2 {
+.kyu-2 {
   background-color: #0099FF;
 }
 
-td.kyu-3 {
+.kyu-3 {
   background-color: #00FF00;
 }
 
-td.kyu-4 {
+.kyu-4 {
   background-color: #FF950E;
 }
 
-td.kyu-5 {
+.kyu-5 {
   background-color: #FFFF00;
-}
-
-tr.angriff td.selected {
-  background-color: Cornsilk;
-}
-
-td.technik.selected {
-  background-color: Cornsilk;
 }
 
 a:visited {
