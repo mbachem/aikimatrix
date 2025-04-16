@@ -40,6 +40,7 @@ $(function() {
         '<a ' + 
           'href="' + vidurl[angriff][technik]["url"] + '" ' + 
           'title="' + vidurl[angriff][technik]["label"] + '" ' + 
+          'class"external" ' + 
           'target="_blank">' +
           kyu +
         '</a>'
