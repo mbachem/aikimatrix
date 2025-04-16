@@ -1,1 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aikimatrix - Mobile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="matrix.css">
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="col-lg-8 px-0">
+        <p class="fs-5">
+          Kyūtechniken nach Prüfungsordnung der <a href="https://www.aikido-foederation.de/">Aikidō Föderation Deutschland e.V.</a>
+          <br>
+          Stand: Nov 2013
+        </p>
 
+        <div class="accordion" id="waza">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSuwariWaza">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSuwariWaza" aria-expanded="true" aria-controls="collapseSuwariWaza">
+                suwari waza
+              </button>
+            </h2>
+            <div id="collapseSuwariWaza" class="accordion-collapse collapse show" aria-labelledby="headingSuwariWaza" data-bs-parent="#waza">
+              <div class="accordion-body">
+                <div class="accordion" id="suwari">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingSuwariWazaAiHanmi">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSuwariWazaAiHanmi" aria-expanded="true" aria-controls="collapseSuwariWazaAiHanmi">
+                        ai hanmi katate dori
+                      </button>
+                    </h2>
+                    <div id="collapseSuwariWazaAiHanmi" class="accordion-collapse collapse show" aria-labelledby="headingSuwariWazaAiHanmi" data-bs-parent="#suwari">
+                      <div class="accordion-body">
+                        <a href="javascript:void(0);" class="btn btn-info kyu kyu-4" role="button" data-angriff="1" data-technik="1">4 - ikkyō</a>
+                        <a href="javascript:void(0);" class="btn btn-info kyu kyu-4" role="button" data-angriff="1" data-technik="10">4 - irmi nage</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingHanmiHandachiWaza">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHanmiHandachiWaza" aria-expanded="false" aria-controls="collapseHanmiHandachiWaza">
+                hanmi handachi waza
+              </button>
+            </h2>
+            <div id="collapseHanmiHandachiWaza" class="accordion-collapse collapse" aria-labelledby="headingHanmiHandachiWaza" data-bs-parent="#waza">
+
+              <div class="accordion-body">
+                @TODO
+              </div>
+
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTachiWaza">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTachiWaza" aria-expanded="false" aria-controls="collapseTachiWaza">
+                tachi mae waza
+              </button>
+            </h2>
+            <div id="collapseTachiWaza" class="accordion-collapse collapse" aria-labelledby="headingTachiWaza" data-bs-parent="#waza">
+              <div class="accordion-body">
+                @TODO
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingUshiroWaza">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUshiroWaza" aria-expanded="false" aria-controls="collapseUshiroWaza">
+                tachi ushiro waza
+              </button>
+            </h2>
+            <div id="collapseUshiroWaza" class="accordion-collapse collapse" aria-labelledby="headingUshiroWaza" data-bs-parent="#waza">
+              <div class="accordion-body">
+                @TODO
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="col-1 my-4">
+        Handle with care. Source-Code: <a href="https://github.com/mbachem/aikimatrix">https://github.com/mbachem/aikimatrix</a>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="../links.js"></script>
+    <script src="matrix.js"></script>
+  </body>
+</html>
