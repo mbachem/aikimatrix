@@ -1,6 +1,6 @@
 /*
  * roll your own video collection:
- *   start here, and repleace links.js
+ *   start here, and replace links.js
  */
 
 let vidurl = {
