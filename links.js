@@ -36,7 +36,7 @@ let vidurl = {
 
   3 : {
     21 : {
-      "label" : "suwari waze - ryote dori - kokyo ho",
+      "label" : "suwari waza - ryote dori - kokyo ho",
       "url" : "https://www.youtube.com/watch?v=O7C433RP5Oc&t=105s"
     }
   },
@@ -116,73 +116,73 @@ let vidurl = {
 
   8 : {
     1 : {
-      "label" : "hanmi handachi waze - gyaku hanmi katate dori - ikko",
+      "label" : "hanmi handachi waza - gyaku hanmi katate dori - ikyo",
       "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=618s"
     },
     2 : {
-      "label" : "hanmi handachi waze - gyaku hanmi katate dori - nikko",
+      "label" : "hanmi handachi waza - gyaku hanmi katate dori - nikyo",
       "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=640s"
     },
     3 : {
-      "label" : "hanmi handachi waze - gyaku hanmi katate dori - sankyo",
+      "label" : "hanmi handachi waza - gyaku hanmi katate dori - sankyo",
       "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=665s"
     },
     4 : {
-      "label" : "hanmi handachi waze - gyaku hanmi katate dori - yonkyo",
+      "label" : "hanmi handachi waza - gyaku hanmi katate dori - yonkyo",
       "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=692s"
     },
     8 : {
-      "label" : "hanmi handachi waze - gyaku hanmi katate dori - kote gaeshi",
+      "label" : "hanmi handachi waza - gyaku hanmi katate dori - kote gaeshi",
       "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=754s"
     },
     9 : {
-      "label" : "hanmi handachi waze - gyaku hanmi katate dori - shiho nage",
+      "label" : "hanmi handachi waza - gyaku hanmi katate dori - shiho nage",
       "url" : "https://www.youtube.com/watch?v=3NGQz--VK0E&t=452s"
     },
     13 : {
-      "label" : "hanmi handachi waze - gyaku hanmi katate dori - shiho nage",
+      "label" : "hanmi handachi waza - gyaku hanmi katate dori - shiho nage",
       "url" : "https://www.youtube.com/watch?v=3NGQz--VK0E&t=467s"
     },
     14 : {
-      "label" : "hanmi handachi waze - gyaku hanmi katate dori - soto kaiten nage",
+      "label" : "hanmi handachi waza - gyaku hanmi katate dori - soto kaiten nage",
       "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=771s"
     }
   },
 
   9 : {
     9 : {
-      "label" : "hanmi handachi waze - ryote dori - shiho nage",
+      "label" : "hanmi handachi waza - ryote dori - shiho nage",
       "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=782s"
     },
   },
 
   10 : {
     1 : {
-      "label" : "hanmi handachi waze - shomen uchi - ikko",
+      "label" : "hanmi handachi waza - shomen uchi - ikyo",
       "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=714s"
     },
     2 : {
-      "label" : "hanmi handachi waze - shomen uchi - nikko",
+      "label" : "hanmi handachi waza - shomen uchi - nikyo",
       "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=732s"
     },
     3 : {
-      "label" : "hanmi handachi waze - shomen uchi - sankyo",
+      "label" : "hanmi handachi waza - shomen uchi - sankyo",
       "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=753s"
     },
     4 : {
-      "label" : "hanmi handachi waze - shomen uchi - yonkyo",
+      "label" : "hanmi handachi waza - shomen uchi - yonkyo",
       "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=774s"
     },
     8 : {
-      "label" : "hanmi handachi waze - shomen uchi - kote gaeshi",
+      "label" : "hanmi handachi waza - shomen uchi - kote gaeshi",
       "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=801s"
     },
     10 : {
-      "label" : "hanmi handachi waze - shomen uchi - irimi nage",
+      "label" : "hanmi handachi waza - shomen uchi - irimi nage",
       "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=792s"
     },
     14 : {
-      "label" : "hanmi handachi waze - shomen uchi - soto kaiten nage",
+      "label" : "hanmi handachi waza - shomen uchi - soto kaiten nage",
       "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=801s"
     }
   },
@@ -686,7 +686,7 @@ let vidurl = {
 
   25 : {
     1 : {
-      "label" : "ushiro waza - ushiro ryo hiji dori - ikko",
+      "label" : "ushiro waza - ushiro ryo hiji dori - ikyo",
       "url": "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=455s"
     },
     18 : {
@@ -697,7 +697,7 @@ let vidurl = {
 
   27 : {
     1 : {
-      "label" : "ushiro waza - ushiro eri dori - ikko",
+      "label" : "ushiro waza - ushiro eri dori - ikyo",
       "url": "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=485s"
     },
     8 : {
@@ -712,7 +712,7 @@ let vidurl = {
 
   28 : {
     1 : {
-      "label" : "ushiro waza - ushiro katate dori kubi shime - ikko",
+      "label" : "ushiro waza - ushiro katate dori kubi shime - ikyo",
       "url": "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=525s"
     },
     8 : {
