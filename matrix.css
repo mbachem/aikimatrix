@@ -10,6 +10,12 @@ body {
 
 h1 {
   font-size: 0.9em;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 0.9em;
+  display: inline-block;
 }
 
 table#matrix {
@@ -58,7 +64,7 @@ td.kyu {
 }
 
 td.kyu.missing {
-  border: 3px dotted red !important;
+  opacity: 0.3;
   cursor: default;
 }
 

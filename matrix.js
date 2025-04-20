@@ -1,24 +1,31 @@
 function clearHighlight($highlighed) {
-  $highlighed.removeClass("kyu-1").removeClass("kyu-2").removeClass("kyu-3").removeClass("kyu-4").removeClass("kyu-5");
+  for (var kyu = 1; kyu <= 5; kyu++) {
+    $highlighed.removeClass("kyu-" + kyu);
+  }
 }
 
 $(function() {
+  var urls = {};
+
+  for (i=0; i<matrix.length; i++) {
+    // console.log(matrix[i]);
+    $("#contentcreator").append(
+      $("<option />")
+        .html(matrix[i].name)
+        .data("urls", matrix[i].urls)
+    );
+  }
+
   $('table#matrix td.kyu').hover(function() {
     let kyu = $(this).data("kyu");
+    // console.log(kyu);
 
     clearHighlight($('tr.angriff td').add("td.technik"));
-
-    let angriff = Number($(this).data("angriff"));
-    $('tr.angriff td:nth-child(' + angriff + ')').addClass('kyu-' + kyu);
-
-    let technik = Number($(this).data("technik"));
-    $("td.technik-" + technik).addClass('kyu-' + kyu);
-
-    if (
-      (typeof(vidurl[angriff]) === "undefined") ||
-      (typeof(vidurl[angriff][technik]) === "undefined")
-    ) {
-      console.log("missing video Link fuer Angiff " + angriff + " und Technik " + technik);
+    if (!$(this).hasClass("missing")) {
+      let angriff = Number($(this).data("angriff"));
+      let technik = Number($(this).data("technik"));
+      $('tr.angriff td:nth-child(' + angriff + ')').addClass('kyu-' + kyu);
+      $("td.technik-" + technik).addClass('kyu-' + kyu);
     }
   });
 
@@ -26,34 +33,41 @@ $(function() {
     clearHighlight($('tr.angriff td').add("td.technik"));
   });
 
-  $('table#matrix td.kyu').each(function() {
-    let angriff = Number($(this).data("angriff"));
-    let technik = Number($(this).data("technik"));
-    let kyu = $(this).html();
-    $(this).data("kyu", kyu);
+  $("#contentcreator").change(function() {
+    urls = $('option:selected', $(this)).data("urls");
 
-    if (
-      (typeof(vidurl[angriff]) !== "undefined") &&
-      (typeof(vidurl[angriff][technik]) !== "undefined") &&
-      (typeof(vidurl[angriff][technik]["url"]) !== "undefined") &&
-      vidurl[angriff][technik]["url"].length > 0
-    ) {
-      $(this).html(
-        '<a ' + 
-          'href="' + vidurl[angriff][technik]["url"] + '" ' + 
-          'title="' + vidurl[angriff][technik]["label"] + '" ' + 
-          'class"external" ' + 
-          'target="_blank">' +
-          kyu +
-        '</a>'
-      );
+    $('table#matrix td.kyu').each(function() {
+      let angriff = Number($(this).data("angriff"));
+      let technik = Number($(this).data("technik"));
+      let kyu = $(this).data("kyu");
+      $(this).data("kyu", kyu);
 
-      $(this).attr("title", vidurl[angriff][technik]["label"]).click(function() {
-        $('a', $(this)).get(0).click();
-      });
-    } else {
-      $(this).attr("title", "missing");
-      $(this).addClass("missing")
-    }
-  });
+      if (
+        (typeof(urls[angriff]) !== "undefined") &&
+        (typeof(urls[angriff][technik]) !== "undefined") &&
+        (typeof(urls[angriff][technik]["url"]) !== "undefined") &&
+        urls[angriff][technik]["url"].length > 0
+      ) {
+        $(this).html(
+          '<a ' + 
+            'href="' + urls[angriff][technik]["url"] + '" ' + 
+            'title="' + urls[angriff][technik]["label"] + '" ' + 
+            'class"external" ' + 
+            'target="_blank">' +
+            kyu +
+          '</a>'
+        );
+
+        $(this).removeClass("missing").attr("title", urls[angriff][technik]["label"]).click(function() {
+          let $link = $('a', $(this)).get(0);
+          if (typeof($link) !== "undefined") {
+            $link.click();
+          }
+        });
+      } else {
+        $(this).attr("title", "missing").addClass("missing").html(kyu);
+      }
+    });
+  }).change();
+
 });
