@@ -635,7 +635,7 @@ matrix.push({
       },
       8 : {
         "label" : "ushiro waza - ushiro ryote dori - kote gaeshi",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=bi8t_-kLil8&t=2668s"
       },
       9 : {
         "label" : "ushiro waza - ushiro ryote dori - shiho nage",
@@ -655,7 +655,7 @@ matrix.push({
       },
       16 : {
         "label" : "ushiro waza - ushiro ryote dori - koshi nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=2134s"
       },
       17 : {
         "label" : "ushiro waza - ushiro ryote dori - juji garami",
@@ -663,7 +663,7 @@ matrix.push({
       },
       18 : {
         "label" : "ushiro waza - ushiro ryote dori - kokyu nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=2184s"
       }
     },
 
