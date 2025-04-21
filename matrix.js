@@ -33,7 +33,7 @@ $(function() {
     }
   });
 
-  $('td.empty').hover(function() {
+  $('td.empty').add('tr.angriff td').add('td.technik').hover(function() {
     clearHighlight($('tr.angriff td').add("td.technik"));
   });
 
