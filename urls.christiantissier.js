@@ -374,7 +374,7 @@ matrix.push({
       },
       17 : {
         "label" :  "tachi waza - katate ryote dori - juji garami",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=342s"
       },
       18 : {
         "label" :  "tachi waza - katate ryote dori - kokyo nage",
@@ -442,7 +442,7 @@ matrix.push({
     19 : {
       9 : {
         "label" :  "tachi waza - muna dori - shiho nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=243s"
       }
     },
 
@@ -465,7 +465,7 @@ matrix.push({
       },
       5 : {
         "label" : "tachi waza - shomen uchi - gokyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=173s"
       },
       8 : {
         "label" : "tachi waza - shomen uchi - kote gaeshi",
@@ -551,7 +551,7 @@ matrix.push({
     22 : {
       1 : {
         "label" : "tachi waza - chudan tsuki - ikyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=64s"
       },
       2 : {
         "label" : "tachi waza - chudan tsuki - nikyo",
@@ -559,7 +559,7 @@ matrix.push({
       },
       3 : {
         "label" : "tachi waza - chudan tsuki - sankyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=120s"
       },
       4 : {
         "label" : "tachi waza - chudan tsuki - yonkyo",
@@ -567,7 +567,7 @@ matrix.push({
       },
       8 : {
         "label" : "tachi waza - chudan tsuki - kote gaeshi",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=193s"
       },
       10 : {
         "label" : "tachi waza - chudan tsuki - irmi nage",
@@ -586,7 +586,7 @@ matrix.push({
     23 : {
       1 : {
         "label" : "tachi waza - jodan tsuki - ikyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=47s"
       },
       2 : {
         "label" : "tachi waza - jodan tsuki - nikyo",
@@ -606,7 +606,7 @@ matrix.push({
       },
       9 : {
         "label" : "tachi waza - jodan tsuki - shiho nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=243s"
       },
       10 : {
         "label" : "tachi waza - jodan tsuki - irimi nage",
@@ -710,15 +710,15 @@ matrix.push({
     27 : {
       1 : {
         "label" : "ushiro waza - ushiro eri dori - ikyo",
-        "url": ""
+        "url": "https://www.youtube.com/watch?v=x6yuTjlemVs&t=6s"
       },
       8 : {
         "label" : "ushiro waza - ushiro eri dori - kote gaeshi",
-        "url": ""
+        "url": "https://www.youtube.com/watch?v=x6yuTjlemVs&t=212s"
       },
       9 : {
         "label" : "ushiro waza - ushiro eri dori - shiho nage",
-        "url": ""
+        "url": "https://www.youtube.com/watch?v=x6yuTjlemVs&t=289s"
       }
     },
 
@@ -733,7 +733,7 @@ matrix.push({
       },
       9 : {
         "label" : "ushiro waza - ushiro katate dori kubi shime - shiho nage",
-        "url": ""
+        "url": "https://www.youtube.com/watch?v=x6yuTjlemVs&t=315s"
       }
     }
   }
