@@ -683,7 +683,7 @@ matrix.push({
         "url" : ""
       },
       11 : {
-        "label" : "ushiro waza - ushiro ryo kata dori - irimi nage",
+        "label" : "ushiro waza - ushiro ryo kata dori - sokumen irimi nage",
         "url" : ""
       },
       18 : {

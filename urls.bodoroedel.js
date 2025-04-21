@@ -201,23 +201,23 @@ matrix.push({
 
     11 : {
       1 : {
-        "label" : "hanmi handachi waza - ushiro ryō kata dori - ikyo",
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - ikyo",
         "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=811s"
       },
       2 : {
-        "label" : "hanmi handachi waza - ushiro ryō kata dori - nikyo",
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - nikyo",
         "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=824s"
       },
       3 : {
-        "label" : "hanmi handachi waza - ushiro ryō kata dori - sankyo",
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - sankyo",
         "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=838s"
       },
       4 : {
-        "label" : "hanmi handachi waza - ushiro ryō kata dori - yonkyo",
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - yonkyo",
         "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=850s"
       },
       18 : {
-        "label" : "hanmi handachi waza - ushiro ryō kata dori - kokyo nage",
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - kokyo nage",
         "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=860s"
       }
     },
@@ -683,7 +683,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=424s"
       },
       11 : {
-        "label" : "ushiro waza - ushiro ryo kata dori - irimi nage",
+        "label" : "ushiro waza - ushiro ryo kata dori - sokumen irimi nage",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=577s"
       },
       18 : {
