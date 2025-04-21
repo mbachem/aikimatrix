@@ -5,15 +5,20 @@ function clearHighlight($highlighed) {
 }
 
 $(function() {
-  var urls = {};
+  let urls = {};
+  let baseurl = window.location.href.split("#")[0];
+  let sensei = window.location.hash.substr(1);
 
   for (i=0; i<matrix.length; i++) {
-    $("#contentcreator").append(
-      $("<option />")
-        .html(matrix[i].name)
-        .attr("value", matrix[i].tag)
-        .data("urls", matrix[i].urls)
-    );
+  let $option = $("<option />")
+      .html(matrix[i].name)
+      .attr("value", matrix[i].tag)
+      .data("urls", matrix[i].urls);
+    
+    if (sensei === matrix[i].tag) {
+      $option.attr("selected", "selected");
+    }
+    $("#contentcreator").append($option);
   }
 
   $('table#matrix td.kyu').hover(function() {
@@ -33,6 +38,7 @@ $(function() {
   });
 
   $("#contentcreator").change(function() {
+    window.location.href = baseurl + '#' + $(this).val();
     urls = $('option:selected', $(this)).data("urls");
 
     $('table#matrix td.kyu').each(function() {
