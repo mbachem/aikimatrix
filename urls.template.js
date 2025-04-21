@@ -5,7 +5,7 @@
  */
 
 if (typeof(matrix) === "undefined") {
-  matrix = [];
+  var matrix = [];
 }
 
 matrix.push({
