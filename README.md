@@ -14,14 +14,14 @@ Youtube Links (Apr. 2025)
 =========================
 
 - Christian Tissier Sensei
-  - 5. Kyu https://www.youtube.com/watch?v=7onzcFcx_hg
-  - 4. Kyu https://www.youtube.com/watch?v=qbRbx-ntIC0
-  - 3. Kyu https://www.youtube.com/watch?v=3Fhyh63D4IM
-  - 2. Kyu https://www.youtube.com/watch?v=uUjkWiaf3BI
-  - 1. Kyu https://www.youtube.com/watch?v=x6yuTjlemVs
+  - "5. Kyu" https://www.youtube.com/watch?v=7onzcFcx_hg
+  - "4. Kyu" https://www.youtube.com/watch?v=qbRbx-ntIC0
+  - "3. Kyu" https://www.youtube.com/watch?v=3Fhyh63D4IM
+  - "2. Kyu" https://www.youtube.com/watch?v=uUjkWiaf3BI
+  - "1. Kyu" https://www.youtube.com/watch?v=x6yuTjlemVs
 - Bodo Rödel Sensei
-  - 5. Kyu https://www.youtube.com/watch?v=O7C433RP5Oc
-  - 4. Kyu https://www.youtube.com/watch?v=QPbWxeMZO-E
-  - 3. Kyu https://www.youtube.com/watch?v=3NGQz--VK0E
-  - 2. Kyu https://www.youtube.com/watch?v=A8Os4buJOkQ
-  - 1. Kyu https://www.youtube.com/watch?v=GC2hnFXAhOY
+  - "5. Kyu" https://www.youtube.com/watch?v=O7C433RP5Oc
+  - "4. Kyu" https://www.youtube.com/watch?v=QPbWxeMZO-E
+  - "3. Kyu" https://www.youtube.com/watch?v=3NGQz--VK0E
+  - "2. Kyu" https://www.youtube.com/watch?v=A8Os4buJOkQ
+  - "1. Kyu" https://www.youtube.com/watch?v=GC2hnFXAhOY
