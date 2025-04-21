@@ -81,19 +81,19 @@ matrix.push({
       },
       3 : {
         "label" : "suwari waza - shomen uchi - sankyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=113s"
       },
       4 : {
         "label" : "suwari waza - shomen uchi - yonkyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=178s"
       },
       5 : {
         "label" : "suwari waza - shomen uchi - gokyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=227s"
       },
       10 : {
         "label" : "suwari waza - shomen uchi - irimi nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=250s"
       }
     },
 

@@ -13,15 +13,23 @@ Simply fork this project and begin with urls.template.js
 Youtube Links (Apr. 2025)
 =========================
 
-- Christian Tissier Sensei
-  - "5. Kyu" https://www.youtube.com/watch?v=7onzcFcx_hg
-  - "4. Kyu" https://www.youtube.com/watch?v=qbRbx-ntIC0
-  - "3. Kyu" https://www.youtube.com/watch?v=3Fhyh63D4IM
-  - "2. Kyu" https://www.youtube.com/watch?v=uUjkWiaf3BI
-  - "1. Kyu" https://www.youtube.com/watch?v=x6yuTjlemVs
 - Bodo Rödel Sensei
   - "5. Kyu" https://www.youtube.com/watch?v=O7C433RP5Oc
   - "4. Kyu" https://www.youtube.com/watch?v=QPbWxeMZO-E
   - "3. Kyu" https://www.youtube.com/watch?v=3NGQz--VK0E
   - "2. Kyu" https://www.youtube.com/watch?v=A8Os4buJOkQ
   - "1. Kyu" https://www.youtube.com/watch?v=GC2hnFXAhOY
+- Christian Tissier Sensei
+  - "5. Kyu" https://www.youtube.com/watch?v=7onzcFcx_hg
+  - "4. Kyu" https://www.youtube.com/watch?v=qbRbx-ntIC0
+  - "3. Kyu" https://www.youtube.com/watch?v=3Fhyh63D4IM
+  - "2. Kyu" https://www.youtube.com/watch?v=uUjkWiaf3BI
+  - "1. Kyu" https://www.youtube.com/watch?v=x6yuTjlemVs
+- Karl Ruben Sensei
+  - "6. Kyu" https://www.youtube.com/watch?v=gRlhNA63-Kc
+  - "5. Kyu" https://www.youtube.com/watch?v=11lFn4wpfsk
+  - "4. Kyu" https://www.youtube.com/watch?v=LaSilceurNY
+  - "3. Kyu" https://www.youtube.com/watch?v=bi8t_-kLil8
+  - "2. Kyu" https://www.youtube.com/watch?v=u8WD-0W-pP4
+  - "1. Kyu" ?
+
