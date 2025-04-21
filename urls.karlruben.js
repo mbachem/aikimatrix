@@ -159,7 +159,7 @@ matrix.push({
       },
       14 : {
         "label" : "hanmi handachi waza - gyaku hanmi katate dori - soto kaiten nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=310s"
       }
     },
 
@@ -173,31 +173,31 @@ matrix.push({
     10 : {
       1 : {
         "label" : "hanmi handachi waza - shomen uchi - ikyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=310s"
       },
       2 : {
         "label" : "hanmi handachi waza - shomen uchi - nikyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=409s"
       },
       3 : {
         "label" : "hanmi handachi waza - shomen uchi - sankyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=463s"
       },
       4 : {
         "label" : "hanmi handachi waza - shomen uchi - yonkyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=527s"
       },
       8 : {
         "label" : "hanmi handachi waza - shomen uchi - kote gaeshi",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=594s"
       },
       10 : {
         "label" : "hanmi handachi waza - shomen uchi - irimi nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=572s"
       },
       14 : {
         "label" : "hanmi handachi waza - shomen uchi - soto kaiten nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=u8WD-0W-pP4&t=622s"
       }
     },
 
