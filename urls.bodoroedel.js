@@ -4,6 +4,7 @@ if (typeof(matrix) === "undefined") {
 
 matrix.push({
   name : "Bodo Rödel Sensei",
+  tag : "bodo.roedel",
   urls : {
     1 : {
       1 : {
@@ -268,7 +269,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=3NGQz--VK0E&t=25s"
       },
       8 : {
-        "label" : "tachi waza - gyaku hanmi katate dori - shiho nage",
+        "label" : "tachi waza - gyaku hanmi katate dori - kote gaeshi",
         "url" : "https://www.youtube.com/watch?v=QPbWxeMZO-E&t=98s"
       },
       9 : {
@@ -520,7 +521,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=3NGQz--VK0E&t=126s"
       },
       9 : {
-        "label" : "tachi waza - yokomen uchi - shihi nage",
+        "label" : "tachi waza - yokomen uchi - shiho nage",
         "url" : "https://www.youtube.com/watch?v=3NGQz--VK0E&t=139s"
       },
       10 : {
@@ -629,7 +630,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=3NGQz--VK0E&t=254s"
       },
       9 : {
-        "label" : "ushiro waza - ushiro ryote dori - shihi nage",
+        "label" : "ushiro waza - ushiro ryote dori - shiho nage",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=569s"
       },
       10 : {

@@ -151,7 +151,7 @@ matrix.push({
         "url" : ""
       },
       13 : {
-        "label" : "hanmi handachi waza - gyaku hanmi katate dori - shiho nage",
+        "label" : "hanmi handachi waza - gyaku hanmi katate dori - uchi kaiten nage",
         "url" : ""
       },
       14 : {
@@ -200,23 +200,23 @@ matrix.push({
 
     11 : {
       1 : {
-        "label" : "hanmi handachi waza - ushiro ryō kata dori - ikyo",
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - ikyo",
         "url" : ""
       },
       2 : {
-        "label" : "hanmi handachi waza - ushiro ryō kata dori - nikyo",
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - nikyo",
         "url" : ""
       },
       3 : {
-        "label" : "hanmi handachi waza - ushiro ryō kata dori - sankyo",
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - sankyo",
         "url" : ""
       },
       4 : {
-        "label" : "hanmi handachi waza - ushiro ryō kata dori - yonkyo",
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - yonkyo",
         "url" : ""
       },
       18 : {
-        "label" : "hanmi handachi waza - ushiro ryō kata dori - kokyo nage",
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - kokyo nage",
         "url" : ""
       }
     },
@@ -274,7 +274,7 @@ matrix.push({
         "url" : ""
       },
       8 : {
-        "label" : "tachi waza - gyaku hanmi katate dori - shiho nage",
+        "label" : "tachi waza - gyaku hanmi katate dori - kote gaeshi",
         "url" : ""
       },
       9 : {
@@ -526,7 +526,7 @@ matrix.push({
         "url" : ""
       },
       9 : {
-        "label" : "tachi waza - yokomen uchi - shihi nage",
+        "label" : "tachi waza - yokomen uchi - shiho nage",
         "url" : ""
       },
       10 : {
@@ -635,7 +635,7 @@ matrix.push({
         "url" : ""
       },
       9 : {
-        "label" : "ushiro waza - ushiro ryote dori - shihi nage",
+        "label" : "ushiro waza - ushiro ryote dori - shiho nage",
         "url" : ""
       },
       10 : {

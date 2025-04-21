@@ -8,17 +8,16 @@ $(function() {
   var urls = {};
 
   for (i=0; i<matrix.length; i++) {
-    // console.log(matrix[i]);
     $("#contentcreator").append(
       $("<option />")
         .html(matrix[i].name)
+        .attr("value", matrix[i].tag)
         .data("urls", matrix[i].urls)
     );
   }
 
   $('table#matrix td.kyu').hover(function() {
     let kyu = $(this).data("kyu");
-    // console.log(kyu);
 
     clearHighlight($('tr.angriff td').add("td.technik"));
     if (!$(this).hasClass("missing")) {
