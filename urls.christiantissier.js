@@ -1,10 +1,7 @@
-/* Christian Tissier Sensei
+/*
+ * Christian Tissier Sensei
+ * https://christiantissier.com/
  *
- *   5. Kyu https://www.youtube.com/watch?v=7onzcFcx_hg
- *   4. Kyu https://www.youtube.com/watch?v=3Fhyh63D4IM
- *   3. Kyu https://www.youtube.com/watch?v=qbRbx-ntIC0
- *   2. Kyu https://www.youtube.com/watch?v=uUjkWiaf3BI
- *   1. Kyuhttps://www.youtube.com/watch?v=x6yuTjlemVs&
  */
 
 if (typeof(matrix) === "undefined") {

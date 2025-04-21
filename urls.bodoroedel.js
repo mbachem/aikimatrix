@@ -1,3 +1,9 @@
+/*
+ * Bodo Rödel Sensei
+ * https://www.aikido-schule.de/
+ *
+ */
+
 if (typeof(matrix) === "undefined") {
   var matrix = [];
 }
