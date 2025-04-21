@@ -5,15 +5,14 @@ function clearHighlight($highlighed) {
 }
 
 $(function() {
-  let urls = {};
   let baseurl = window.location.href.split("#")[0];
   let sensei = window.location.hash.substr(1);
 
   for (i=0; i<matrix.length; i++) {
-  let $option = $("<option />")
+    let $option = $("<option />")
       .html(matrix[i].name)
       .attr("value", matrix[i].tag)
-      .data("urls", matrix[i].urls);
+      .data("m", matrix[i]);
     
     if (sensei === matrix[i].tag) {
       $option.attr("selected", "selected");
@@ -39,7 +38,11 @@ $(function() {
 
   $("#contentcreator").change(function() {
     window.location.href = baseurl + '#' + $(this).val();
-    urls = $('option:selected', $(this)).data("urls");
+    let m = $('option:selected', $(this)).data("m");
+
+    $("a#sensei")
+      .attr("href", m["url"])
+      .html(m["name"] + ' - ' + m["url"]);
 
     $('table#matrix td.kyu').each(function() {
       let angriff = Number($(this).data("angriff"));
@@ -48,22 +51,22 @@ $(function() {
       $(this).data("kyu", kyu);
 
       if (
-        (typeof(urls[angriff]) !== "undefined") &&
-        (typeof(urls[angriff][technik]) !== "undefined") &&
-        (typeof(urls[angriff][technik]["url"]) !== "undefined") &&
-        urls[angriff][technik]["url"].length > 0
+        (typeof(m["urls"][angriff]) !== "undefined") &&
+        (typeof(m["urls"][angriff][technik]) !== "undefined") &&
+        (typeof(m["urls"][angriff][technik]["url"]) !== "undefined") &&
+        m["urls"][angriff][technik]["url"].length > 0
       ) {
         $(this).html(
           '<a ' + 
-            'href="' + urls[angriff][technik]["url"] + '" ' + 
-            'title="' + urls[angriff][technik]["label"] + ' (' + kyu + '. kyu)" ' + 
+            'href="' + m["urls"][angriff][technik]["url"] + '" ' + 
+            'title="' + m["urls"][angriff][technik]["label"] + ' (' + kyu + '. kyu)" ' + 
             'class"external" ' + 
             'target="_blank">' +
             kyu +
           '</a>'
         );
 
-        $(this).removeClass("missing").attr("title", urls[angriff][technik]["label"]).click(function() {
+        $(this).removeClass("missing").attr("title", m["urls"][angriff][technik]["label"]).click(function() {
           let $link = $('a', $(this)).get(0);
           if (typeof($link) !== "undefined") {
             $link.click();

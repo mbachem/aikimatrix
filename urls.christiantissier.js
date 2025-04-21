@@ -2,6 +2,7 @@
  * Christian Tissier Sensei
  * https://christiantissier.com/
  *
+ *
  */
 
 if (typeof(matrix) === "undefined") {
@@ -11,6 +12,7 @@ if (typeof(matrix) === "undefined") {
 matrix.push({
   name : "Christian Tissier Sensei",
   tag : "christian.tissier",
+  url : "https://christiantissier.com/",
   urls : {
     1 : {
       1 : {

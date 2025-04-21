@@ -1,5 +1,6 @@
 /*
  * roll your own video collection:
+ *
  *   start here, and load file in index.php
  *
  */
@@ -11,6 +12,7 @@ if (typeof(matrix) === "undefined") {
 matrix.push({
   name : "Temp Late",
   tag : "temp.late",
+  url : "http://www.github.de/",
   urls : {
     1 : {
       1 : {
