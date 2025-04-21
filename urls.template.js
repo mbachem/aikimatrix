@@ -1,8 +1,6 @@
 /*
  * roll your own video collection:
- *
- *   start here, and load file in index.php
- *
+ *  start here, and load file in index.php
  */
 
 if (typeof(matrix) === "undefined") {

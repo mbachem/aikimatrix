@@ -1,8 +1,6 @@
 /*
  * Karl Ruben Sensei
- * https://www.kokoro-aikido.de/
- * 
- * thanks to https://aikido-oberursel.de/en/mediapage/basic-forms
+ *   thanks to https://aikido-oberursel.de/en/mediapage/basic-forms
  */
 
 if (typeof(matrix) === "undefined") {

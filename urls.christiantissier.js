@@ -1,8 +1,6 @@
 /*
  * Christian Tissier Sensei
- * https://christiantissier.com/
- *
- *
+ *   https://christiantissier.com/
  */
 
 if (typeof(matrix) === "undefined") {
