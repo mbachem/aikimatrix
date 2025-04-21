@@ -44,8 +44,7 @@ $(function() {
       .attr("href", m["url"])
       .html(m["url"]);
 
-    $("span#sensei-name")
-      .html(m["name"]);
+    $("span#sensei-name").html(m["name"]);
 
     $('table#matrix td.kyu').each(function() {
       let angriff = Number($(this).data("angriff"));
