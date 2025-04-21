@@ -152,7 +152,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=3NGQz--VK0E&t=452s"
       },
       13 : {
-        "label" : "hanmi handachi waza - gyaku hanmi katate dori - shiho nage",
+        "label" : "hanmi handachi waza - gyaku hanmi katate dori - uchi kaiten nage",
         "url" : "https://www.youtube.com/watch?v=3NGQz--VK0E&t=467s"
       },
       14 : {

@@ -56,7 +56,7 @@ $(function() {
         $(this).html(
           '<a ' + 
             'href="' + urls[angriff][technik]["url"] + '" ' + 
-            'title="' + urls[angriff][technik]["label"] + '" ' + 
+            'title="' + urls[angriff][technik]["label"] + ' (' + kyu + '. kyu)" ' + 
             'class"external" ' + 
             'target="_blank">' +
             kyu +
