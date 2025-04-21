@@ -13,7 +13,7 @@ $(function() {
       .html(matrix[i].name)
       .attr("value", matrix[i].tag)
       .data("m", matrix[i]);
-    
+
     if (sensei === matrix[i].tag) {
       $option.attr("selected", "selected");
     }
@@ -40,9 +40,12 @@ $(function() {
     window.location.href = baseurl + '#' + $(this).val();
     let m = $('option:selected', $(this)).data("m");
 
-    $("a#sensei")
+    $("a#sensei-url")
       .attr("href", m["url"])
-      .html(m["name"] + ' - ' + m["url"]);
+      .html(m["url"]);
+
+    $("span#sensei-name")
+      .html(m["name"]);
 
     $('table#matrix td.kyu').each(function() {
       let angriff = Number($(this).data("angriff"));
@@ -57,10 +60,10 @@ $(function() {
         m["urls"][angriff][technik]["url"].length > 0
       ) {
         $(this).html(
-          '<a ' + 
-            'href="' + m["urls"][angriff][technik]["url"] + '" ' + 
-            'title="' + m["urls"][angriff][technik]["label"] + ' (' + kyu + '. kyu)" ' + 
-            'class"external" ' + 
+          '<a ' +
+            'href="' + m["urls"][angriff][technik]["url"] + '" ' +
+            'title="' + m["urls"][angriff][technik]["label"] + ' (' + kyu + '. kyu)" ' +
+            'class"external" ' +
             'target="_blank">' +
             kyu +
           '</a>'
