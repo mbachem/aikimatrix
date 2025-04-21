@@ -1,10 +1,9 @@
-
 if (typeof(matrix) === "undefined") {
-  matrix = [];
+  var matrix = [];
 }
 
 matrix.push({
-  name : "Bodo Rödel",
+  name : "Bodo Rödel Sensei",
   urls : {
     1 : {
       1 : {

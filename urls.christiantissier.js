@@ -1,15 +1,18 @@
-/*
- * roll your own video collection:
- *   start here, and load file in index.php
+/* Christian Tissier Sensei
  *
+ *   5. Kyu https://www.youtube.com/watch?v=7onzcFcx_hg
+ *   4. Kyu https://www.youtube.com/watch?v=3Fhyh63D4IM
+ *   3. Kyu https://www.youtube.com/watch?v=qbRbx-ntIC0
+ *   2. Kyu https://www.youtube.com/watch?v=uUjkWiaf3BI
+ *   1. Kyuhttps://www.youtube.com/watch?v=x6yuTjlemVs&
  */
 
 if (typeof(matrix) === "undefined") {
-  matrix = [];
+  var matrix = [];
 }
 
 matrix.push({
-  name : "Christian Tissier",
+  name : "Christian Tissier Sensei",
   urls : {
     1 : {
       1 : {
@@ -255,7 +258,7 @@ matrix.push({
     13 : {
       1 : {
         "label" : "tachi waza - gyaku hanmi katate dori - ikyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=3Fhyh63D4IM&t=3s"
       },
       2 : {
         "label" : "tachi waza - gyaku hanmi katate dori - nikyo",
