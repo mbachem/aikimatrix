@@ -69,13 +69,6 @@ $(function() {
         );
 
         $(this).removeClass("missing").attr("title", m["urls"][angriff][technik]["label"]);
-        /*.click(function() {
-          let $link = $('a', $(this)).get(0);
-          if (typeof($link) !== "undefined") {
-            $link.click();
-          }
-        });
-        */
       } else {
         $(this).attr("title", "missing").addClass("missing").html(kyu);
       }
