@@ -8,7 +8,7 @@ if (typeof(matrix) === "undefined") {
   }
   
   matrix.push({
-    name : "François Pichereau",
+    name : "François Pichereau Sensei",
     tag : "francois.pichereau",
     url : "https://francoispichereau-aikido.jimdoweb.com/",
     urls : {
