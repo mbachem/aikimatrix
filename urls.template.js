@@ -10,7 +10,7 @@ if (typeof(matrix) === "undefined") {
 matrix.push({
   name : "Temp Late",
   tag : "temp.late",
-  url : "http://www.github.de/",
+  url : "https://github.com/mbachem/aikimatrix",
   urls : {
     1 : {
       1 : {
