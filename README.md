@@ -1,6 +1,6 @@
 Aikimatrix
 ==========
-The Aikimatrix is Video link list for all Aikido Kyu exam techniques according to the matrix from https://www.aikido-foederation.de/
+The Aikimatrix is video link list for all Aikido Kyu exam techniques according to the matrix from https://www.aikido-foederation.de/
 
 Try it now: https://mbachem.github.io/aikimatrix/, or see the matrix in action: https://youtu.be/bb-9G5xBfYk
 
@@ -8,6 +8,8 @@ Please note the GPL 3.0 license: Downloading, publishing, editing, etc. is permi
 
 Do you have your own video collection that you'd like to see linked?
 Simply fork this project and begin with urls.template.js
+
+Start developing with VsCode Online: https://vscode.dev/github/mbachem/aikimatrix
 
 
 Youtube Links (Apr. 2025)
@@ -33,3 +35,8 @@ Youtube Links (Apr. 2025)
   - "2. Kyu" https://www.youtube.com/watch?v=u8WD-0W-pP4
   - "1. Kyu" ?
 
+Credits
+=======
+- Thanks to all the video content creators for sharing! They did all the hard work.
+- Thanks to https://www.aikido-foederation.de/ for creating the kyu refrence table: The Matrix
+- Thanks to Klaus Meßlinger, for sharing so many deep links at https://aikido-oberursel.de/en/mediapage/basic-forms

@@ -520,11 +520,11 @@ matrix.push({
       },
       10 : {
         "label" : "tachi waza - yokomen uchi - irimi nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=bi8t_-kLil8&t=2237s"
       },
       8 : {
         "label" : "tachi waza - yokomen uchi - kote gaeshi",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=bi8t_-kLil8&t=2312s"
       },
       9 : {
         "label" : "tachi waza - yokomen uchi - shiho nage",
