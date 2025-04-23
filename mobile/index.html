@@ -6,13 +6,22 @@
     <title>Aikimatrix - Mobile</title>
     <link rel="icon" type="image/x-icon" href="../favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-    <link rel="stylesheet" href="mobile.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="../urls.bodoroedel.js"></script>
     <script src="../urls.christiantissier.js"></script>
     <script src="../urls.karlruben.js"></script>
     <script src="../urls.francoispichereau.js"></script>
+    <style>
+      .accordion-button:not(.collapsed) { color: white; background-color: #0096c4; }
+      .kyu { color: black; }
+      .kyu-1 { background-color: #996633; }
+      .kyu-2 { background-color: #0099FF; }
+      .kyu-3 { background-color: #00FF00; }
+      .kyu-4 { background-color: #FF950E; }
+      .kyu-5 { background-color: #FFFF00; }
+      .kyu.missing { opacity: 0.3; cursor: default; }
+    </style>
   </head>
 
   <body>
@@ -34,7 +43,7 @@
         </select>
       </div>
 
-      <div id="main" class="col-lg-8 px-0">
+      <div id="main" class="col-lg-8 px-0 mt-3">
         <div class="accordion" id="waza">
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingSuwariWaza">
@@ -53,8 +62,10 @@
                     </h2>
                     <div id="collapseSuwariWazaAiHanmi" class="accordion-collapse collapse" aria-labelledby="headingSuwariWazaAiHanmi" data-bs-parent="#suwari">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="1" data-technik="1">ikyō (4)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="1" data-technik="10">irmi nage (4)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="1" data-technik="1">ikyō (4)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="1" data-technik="10">irmi nage (4)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -66,11 +77,15 @@
                     </h2>
                     <div id="collapseSuwariWazaGyakiHanmi" class="accordion-collapse collapse" aria-labelledby="headingSuwariWazaGyakuHanmi" data-bs-parent="#suwari">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="2" data-technik="1">ikyō (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="2" data-technik="2">nikyō (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="2" data-technik="3">sankyo (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="2" data-technik="4">yonkyo (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="2" data-technik="10">irimi nage (3)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="2" data-technik="1">ikyō (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="2" data-technik="2">nikyō (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="2" data-technik="3">sankyo (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="2" data-technik="4">yonkyo (2)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-2 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="2" data-technik="10">irimi nage (3)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -82,7 +97,9 @@
                     </h2>
                     <div id="collapseSuwariWazaRyoteDori" class="accordion-collapse collapse" aria-labelledby="headingSuwariWazaRyoteDori" data-bs-parent="#suwari">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-5" role="button" data-kyu="5" data-angriff="3" data-technik="21">kokyo ho (5)</a>
+                        <div class="d-grid gap-1">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-5" role="button" data-kyu="5" data-angriff="3" data-technik="21">kokyo ho (5)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -94,9 +111,11 @@
                     </h2>
                     <div id="collapseSuwariWazaKataDori" class="accordion-collapse collapse" aria-labelledby="headingSuwariWazaKataDori" data-bs-parent="#suwari">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="4" data-technik="1">ikyō (4)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="4" data-technik="2">nikyō (4)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="4" data-technik="3">sankyo (4)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="4" data-technik="1">ikyō (4)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="4" data-technik="2">nikyō (4)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="4" data-technik="3">sankyo (4)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -108,12 +127,16 @@
                     </h2>
                     <div id="collapseSuwariWazaShomenUchi" class="accordion-collapse collapse" aria-labelledby="headingSuwariWazaShomenUchi" data-bs-parent="#suwari">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="6" data-technik="1">ikyō (4)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="6" data-technik="2">nikyō (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="6" data-technik="3">sankyō (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="6" data-technik="4">yonkyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="6" data-technik="5">gokyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="6" data-technik="10">irimi nage (4)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="6" data-technik="1">ikyō (4)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="6" data-technik="2">nikyō (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="6" data-technik="3">sankyō (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="6" data-technik="4">yonkyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="6" data-technik="5">gokyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="6" data-technik="10">irimi nage (4)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -125,13 +148,17 @@
                     </h2>
                     <div id="collapseSuwariWazaYokomenUchi" class="accordion-collapse collapse" aria-labelledby="headingSuwariWazaYokomenUchi" data-bs-parent="#suwari">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="7" data-technik="1">ikyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="7" data-technik="2">nikyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="7" data-technik="3">sankyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="7" data-technik="4">yonkyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="7" data-technik="5">gokyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="7" data-technik="8">kote gaeshi (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="7" data-technik="10">irimi nage (2)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="7" data-technik="1">ikyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="7" data-technik="2">nikyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="7" data-technik="3">sankyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="7" data-technik="4">yonkyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="7" data-technik="5">gokyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="7" data-technik="8">kote gaeshi (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="7" data-technik="10">irimi nage (2)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -157,14 +184,18 @@
                     </h2>
                     <div id="collapseHanmiHandachiWazaKatateDori" class="accordion-collapse collapse" aria-labelledby="headingHanmiHandachiWazaKatateDori" data-bs-parent="#hanmihandachi">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="8" data-technik="1">ikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="8" data-technik="2">nikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="8" data-technik="3">sankyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="8" data-technik="4">yonkyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="8" data-technik="8">kote gaeshi (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="8" data-technik="9">shihō nage (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="8" data-technik="13">uchi kaiten nage (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="8" data-technik="14">soto kaiten nage (2)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="8" data-technik="1">ikyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="8" data-technik="2">nikyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="8" data-technik="3">sankyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="8" data-technik="4">yonkyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="8" data-technik="8">kote gaeshi (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="8" data-technik="9">shihō nage (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="8" data-technik="13">uchi kaiten nage (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="8" data-technik="14">soto kaiten nage (2)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -175,8 +206,10 @@
                       </button>
                     </h2>
                     <div id="collapseHanmiHandachiWazaRyoteDori" class="accordion-collapse collapse" aria-labelledby="headingHanmiHandachiWazaRyoteDori" data-bs-parent="#hanmihandachi">
-                      <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="9" data-technik="9">shihō nage (2)</a>
+                      <div class="accordion-body wuerfe">
+                        <div class="d-grid gap-1">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="9" data-technik="9">shihō nage (2)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -188,13 +221,17 @@
                     </h2>
                     <div id="collapseHanmiHandachiWazaShomenUchi" class="accordion-collapse collapse" aria-labelledby="headingHanmiHandachiWazaShomenUchi" data-bs-parent="#hanmihandachi">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="10" data-technik="1">ikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="10" data-technik="2">nikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="10" data-technik="3">sankyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="10" data-technik="4">yonkyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="10" data-technik="8">kote gaeshi (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="10" data-technik="10">irimi nage (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="10" data-technik="14">soto kaiten nage (2)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="10" data-technik="1">ikyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="10" data-technik="2">nikyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="10" data-technik="3">sankyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="10" data-technik="4">yonkyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="10" data-technik="8">kote gaeshi (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="10" data-technik="10">irimi nage (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="10" data-technik="14">soto kaiten nage (2)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -206,11 +243,15 @@
                     </h2>
                     <div id="collapseHanmiHandachiWazaUshiroRyoKataDori" class="accordion-collapse collapse" aria-labelledby="headingHanmiHandachiWazaUshiroRyoKataDori" data-bs-parent="#hanmihandachi">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="11" data-technik="1">ikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="11" data-technik="2">nikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="11" data-technik="3">sankyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="11" data-technik="4">yonkyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="11" data-technik="18">kokyū nage (1)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="11" data-technik="1">ikyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="11" data-technik="2">nikyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="11" data-technik="3">sankyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="11" data-technik="4">yonkyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="11" data-technik="18">kokyū nage (1)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -236,13 +277,17 @@
                     </h2>
                     <div id="collapseTachiWazaAiHanmiKatateDori" class="accordion-collapse collapse" aria-labelledby="headingTachiWazaAiHanmiKatateDori" data-bs-parent="#tachiwaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-5" role="button" data-kyu="5" data-angriff="12" data-technik="1">ikyō (5)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="12" data-technik="2">nikyō (4)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-5" role="button" data-kyu="5" data-angriff="12" data-technik="8">kote gaeshi (5)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-5" role="button" data-kyu="5" data-angriff="12" data-technik="9">shihō nage (5)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-5" role="button" data-kyu="5" data-angriff="12" data-technik="10">irimi nage (5)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="12" data-technik="15">ude kime nage (4)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="12" data-technik="16">koshi nage (2)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-5" role="button" data-kyu="5" data-angriff="12" data-technik="1">ikyō (5)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="12" data-technik="2">nikyō (4)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-5" role="button" data-kyu="5" data-angriff="12" data-technik="8">kote gaeshi (5)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-5" role="button" data-kyu="5" data-angriff="12" data-technik="9">shihō nage (5)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-5" role="button" data-kyu="5" data-angriff="12" data-technik="10">irimi nage (5)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="12" data-technik="15">ude kime nage (4)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="12" data-technik="16">koshi nage (2)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -255,21 +300,25 @@
                     <div id="collapseTachiWazaGyakuHanmiKatateDori" class="accordion-collapse collapse" aria-labelledby="headingTachiWazaGyakuHanmiKatateDori" data-bs-parent="#tachiwaza">
                       <div class="accordion-body">
                         <div class="accordion-body">
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="1">ikyō (4)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="2">nikyō (4)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="13" data-technik="3">sankyō (3)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="13" data-technik="4">yonkyō (2)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="13" data-technik="7">ude garami (3)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="8">kote gaeshi (4)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="9">shihō nage (4)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="10">irimi nage (4)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="11">sokumen irimi nage (4)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="12">tenchi nage (4)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="13">uchi kaiten nage (4)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="15">ude kime nage (4)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="13" data-technik="16">koshi nage (2)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="13" data-technik="18">kokyū nage (2)</a>
-                          <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="13" data-technik="18">sumi otoshi (1)</a>
+                          <div class="d-grid gap-1 haltetechniken">
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="1">ikyō (4)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="2">nikyō (4)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="13" data-technik="3">sankyō (3)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="13" data-technik="4">yonkyō (2)</a>
+                          </div>
+                          <div class="d-grid mt-4 gap-1 wuerfe">
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="13" data-technik="7">ude garami (3)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="8">kote gaeshi (4)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="9">shihō nage (4)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="10">irimi nage (4)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="11">sokumen irimi nage (4)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="12">tenchi nage (4)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="13">uchi kaiten nage (4)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="13" data-technik="15">ude kime nage (4)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="13" data-technik="16">koshi nage (2)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="13" data-technik="18">kokyū nage (2)</a>
+                            <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="13" data-technik="18">sumi otoshi (1)</a>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -282,12 +331,16 @@
                     </h2>
                     <div id="collapseTachiWazaRyoteDori" class="accordion-collapse collapse" aria-labelledby="headingTachiWazaRyoteDori" data-bs-parent="#tachiwaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="14" data-technik="1">ikyō (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="14" data-technik="8">kote gaeshi (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="14" data-technik="9">shihō nage (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="14" data-technik="10">irimi nage (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="14" data-technik="12">tenchi nage (4)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="14" data-technik="15">ude kime nage (2)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="14" data-technik="1">ikyō (3)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="14" data-technik="8">kote gaeshi (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="14" data-technik="9">shihō nage (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="14" data-technik="10">irimi nage (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="14" data-technik="12">tenchi nage (4)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="14" data-technik="15">ude kime nage (2)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -299,15 +352,19 @@
                     </h2>
                     <div id="collapseTachiWazaKatateRyoteDori" class="accordion-collapse collapse" aria-labelledby="headingTachiWazaKatateRyoteDori" data-bs-parent="#tachiwaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="1">ikyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="2">nikyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="3">sankyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="4">yonkyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="8">kote gaeshi (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="9">shihō nage (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="10">irimi nage (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="15" data-technik="17">jūji garami (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="18">kokyū nage (2)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="1">ikyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="2">nikyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="3">sankyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="4">yonkyō (2)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="8">kote gaeshi (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="9">shihō nage (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="10">irimi nage (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="15" data-technik="17">jūji garami (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="15" data-technik="18">kokyū nage (2)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -319,9 +376,11 @@
                     </h2>
                     <div id="collapseTachiWazaKataDori" class="accordion-collapse collapse" aria-labelledby="headingTachiWazaKataDori" data-bs-parent="#tachiwaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="16" data-technik="1">ikyō (4)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="4" data-angriff="16" data-technik="2">nikyō (4)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="16" data-technik="3">sankyō (3)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="16" data-technik="1">ikyō (4)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="4" data-angriff="16" data-technik="2">nikyō (4)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="16" data-technik="3">sankyō (3)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -333,7 +392,9 @@
                     </h2>
                     <div id="collapseTachiWazaMaeRyoKataDori" class="accordion-collapse collapse" aria-labelledby="headingTachiWazaMaeRyoKataDori" data-bs-parent="#tachiwaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="17" data-technik="18">kokyū nage (1)</a>
+                        <div class="d-grid gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="17" data-technik="18">kokyū nage (1)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -345,14 +406,18 @@
                     </h2>
                     <div id="collapseTachiWazaKataDoriMenUchi" class="accordion-collapse collapse" aria-labelledby="headingTachiWazaKataDoriMenUchi" data-bs-parent="#tachiwaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="1">ikyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="2">nikyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="3">sankyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="4">yonkyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="8">kote gaeshi (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="9">shihō nage (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="10">irimi nage (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="18">kokyū nage (2)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="1">ikyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="2">nikyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="3">sankyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="4">yonkyō (2)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="8">kote gaeshi (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="9">shihō nage (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="10">irimi nage (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="18" data-technik="18">kokyū nage (2)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -364,7 +429,9 @@
                     </h2>
                     <div id="collapseTachiWazaMunaDori" class="accordion-collapse collapse" aria-labelledby="headingTachiWazaMunaDori" data-bs-parent="#tachiwaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="19" data-technik="9">shihō nage (1)</a>
+                        <div class="d-grid gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="19" data-technik="9">shihō nage (1)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -376,18 +443,22 @@
                     </h2>
                     <div id="collapseTachiWazaShomenUchi" class="accordion-collapse collapse" aria-labelledby="headingTachiWazaShomenUchi" data-bs-parent="#tachiwaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-5" role="button" data-kyu="4" data-angriff="20" data-technik="1">ikyō (5)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-4" role="button" data-kyu="2" data-angriff="20" data-technik="2">nikyō (4)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="20" data-technik="3">sankyō (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="20" data-technik="4">yonkyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="20" data-technik="5">gokyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-5" role="button" data-kyu="5" data-angriff="20" data-technik="8">kote gaeshi (5)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="20" data-technik="9">shihō nage (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-5" role="button" data-kyu="5" data-angriff="20" data-technik="10">irimi nage (5)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="20" data-technik="13">uchi kaiten nage (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="20" data-technik="14">soto kaiten nage (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="20" data-technik="16">koshi nage (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="20" data-technik="18">kokyū nage (1)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-5" role="button" data-kyu="4" data-angriff="20" data-technik="1">ikyō (5)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-4" role="button" data-kyu="2" data-angriff="20" data-technik="2">nikyō (4)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="20" data-technik="3">sankyō (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="20" data-technik="4">yonkyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="20" data-technik="5">gokyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-5" role="button" data-kyu="5" data-angriff="20" data-technik="8">kote gaeshi (5)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="20" data-technik="9">shihō nage (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-5" role="button" data-kyu="5" data-angriff="20" data-technik="10">irimi nage (5)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="20" data-technik="13">uchi kaiten nage (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="20" data-technik="14">soto kaiten nage (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="20" data-technik="16">koshi nage (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="20" data-technik="18">kokyū nage (1)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -399,17 +470,21 @@
                     </h2>
                     <div id="collapseTachiWazaYokomemUchi" class="accordion-collapse collapse" aria-labelledby="headingTachiWazaYokomemUchi" data-bs-parent="#tachiwaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="21" data-technik="1">ikyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="21" data-technik="2">nikyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="21" data-technik="3">sankyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="21" data-technik="4">yonkyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="21" data-technik="5">gokyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="21" data-technik="8">kote gaeshi (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="21" data-technik="9">shihō nage (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="21" data-technik="10">irimi nage (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="21" data-technik="15">ude kime nage (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="21" data-technik="16">koshi nage (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="21" data-technik="18">kokyū nage (1)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="21" data-technik="1">ikyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="21" data-technik="2">nikyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="21" data-technik="3">sankyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="21" data-technik="4">yonkyō (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="21" data-technik="5">gokyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="21" data-technik="8">kote gaeshi (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="21" data-technik="9">shihō nage (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="21" data-technik="10">irimi nage (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="21" data-technik="15">ude kime nage (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="21" data-technik="16">koshi nage (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="21" data-technik="18">kokyū nage (1)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -421,14 +496,18 @@
                     </h2>
                     <div id="collapseTachiWazaChudanTsuki" class="accordion-collapse collapse" aria-labelledby="headingTachiWazaChudanTsuki" data-bs-parent="#tachiwaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="1">ikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="2">nikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="3">sankyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="4">yonkyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="8">kote gaeshi (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="10">irimi nage (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="13">uchi kaiten nage (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="14">soto kaiten nage (1)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="1">ikyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="2">nikyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="3">sankyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="4">yonkyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="8">kote gaeshi (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="10">irimi nage (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="13">uchi kaiten nage (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="22" data-technik="14">soto kaiten nage (1)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -440,13 +519,17 @@
                     </h2>
                     <div id="collapseTachiWazaJodanTsuki" class="accordion-collapse collapse" aria-labelledby="headingTachiWazaJodanTsuki" data-bs-parent="#tachiwaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="1">ikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="2">nikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="3">sankyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="4">yonkyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="6">hiji kime osae (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="9">shihō nage (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="10">irimi nage (1)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="1">ikyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="2">nikyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="3">sankyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="4">yonkyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="6">hiji kime osae (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="9">shihō nage (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="23" data-technik="10">irimi nage (1)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -472,17 +555,21 @@
                     </h2>
                     <div id="collapseUshiroWazaUshiroRyoteDori" class="accordion-collapse collapse" aria-labelledby="headingUshiroWazaUshiroRyoteDori" data-bs-parent="#ushirowaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="24" data-technik="1">ikyō (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="24" data-technik="2">nikyō (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="24" data-technik="3">sankyō (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="24" data-technik="4">yonkyō (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-3" role="button" data-kyu="3" data-angriff="24" data-technik="8">kote gaeshi (3)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="24" data-technik="9">shihō nage (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="24" data-technik="10">irimi nage (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="24" data-technik="11">sokumen irimi nage (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="24" data-technik="16">koshi nage (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="24" data-technik="17">jūji garami (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="24" data-technik="18">kokyū nage (1)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="24" data-technik="1">ikyō (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="24" data-technik="2">nikyō (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="24" data-technik="3">sankyō (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="24" data-technik="4">yonkyō (2)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-3" role="button" data-kyu="3" data-angriff="24" data-technik="8">kote gaeshi (3)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="24" data-technik="9">shihō nage (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="24" data-technik="10">irimi nage (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="24" data-technik="11">sokumen irimi nage (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="24" data-technik="16">koshi nage (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="24" data-technik="17">jūji garami (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="24" data-technik="18">kokyū nage (1)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -494,8 +581,12 @@
                     </h2>
                     <div id="collapseUshiroWazaUshiroRyoHijiDori" class="accordion-collapse collapse" aria-labelledby="headingUshiroWazaUshiroRyoHijiDori" data-bs-parent="#ushirowaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="25" data-technik="1">ikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="25" data-technik="18">kokyū nage (1)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="25" data-technik="1">ikyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="25" data-technik="18">kokyū nage (1)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -507,13 +598,17 @@
                     </h2>
                     <div id="collapseUshiroWazaUshiroRyoKataDori" class="accordion-collapse collapse" aria-labelledby="headingUshiroWazaUshiroRyoKataDori" data-bs-parent="#ushirowaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="26" data-technik="1">ikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="26" data-technik="2">nikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="26" data-technik="3">sankyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="26" data-technik="4">yonkyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="26" data-technik="11">sokumen irimi nage (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-2" role="button" data-kyu="2" data-angriff="26" data-technik="18">kokyū nage (2)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="26" data-technik="19">aiki otoshi (1)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="26" data-technik="1">ikyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="26" data-technik="2">nikyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="26" data-technik="3">sankyō (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="26" data-technik="4">yonkyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="26" data-technik="11">sokumen irimi nage (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-2" role="button" data-kyu="2" data-angriff="26" data-technik="18">kokyū nage (2)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="26" data-technik="19">aiki otoshi (1)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -525,9 +620,13 @@
                     </h2>
                     <div id="collapseUshiroWazaUshiroEriDori" class="accordion-collapse collapse" aria-labelledby="headingUshiroWazaUshiroEriDori" data-bs-parent="#ushirowaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="27" data-technik="1">ikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="27" data-technik="8">kote gaeshi (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="27" data-technik="9">shihō nage (1)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="27" data-technik="1">ikyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="27" data-technik="8">kote gaeshi (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="27" data-technik="9">shihō nage (1)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -539,9 +638,13 @@
                     </h2>
                     <div id="collapseUshiroWazaUshiroKatateDoriKubiShime" class="accordion-collapse collapse" aria-labelledby="headingUshiroWazaUshiroKatateDoriKubiShime" data-bs-parent="#ushirowaza">
                       <div class="accordion-body">
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="28" data-technik="1">ikyō (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="28" data-technik="8">kote gaeshi (1)</a>
-                        <a href="javascript:void(0);" target="_new" class="btn btn-info kyu kyu-1" role="button" data-kyu="1" data-angriff="28" data-technik="9">shihō nage (1)</a>
+                        <div class="d-grid gap-1 haltetechniken">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="28" data-technik="1">ikyō (1)</a>
+                        </div>
+                        <div class="d-grid mt-4 gap-1 wuerfe">
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="28" data-technik="8">kote gaeshi (1)</a>
+                          <a href="javascript:void(0);" target="_new" class="btn btn-primary kyu kyu-1" role="button" data-kyu="1" data-angriff="28" data-technik="9">shihō nage (1)</a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -551,10 +654,19 @@
           </div>
         </div>
 
-        <p class="sources">
+        <p class="sources mt-3">
           Aikimatrix: <a href="https://github.com/mbachem/aikimatrix" target="_new">Source-Code</a> -
           <a href="https://mbachem.github.io/aikimatrix/" target="_new">Desktop-Version</a><br />
           <a href="javascript:void(0);" target="_new" target="_new" id="sensei-url"></a>
+        </p>
+
+        <p class="sources mt-3">
+          Color Codes:<br>
+          <button class="btn btn-primary kyu kyu-5 pr-2" data-kyu="5">5. Kyu</button>
+          <button class="btn btn-primary kyu kyu-4 pr-2" data-kyu="4">4. Kyu</button>
+          <button class="btn btn-primary kyu kyu-3 pr-2" data-kyu="3">3. Kyu</button>
+          <button class="btn btn-primary kyu kyu-2 pr-2" data-kyu="2">2. Kyu</button>
+          <button class="btn btn-primary kyu kyu-1 pr-2" data-kyu="1">1. Kyu</button>
         </p>
       </div>
     </div>
@@ -578,7 +690,7 @@
 
         $("#kyuselect").change(function() {
           let maxkyu = $(this).val();
-          $("a.kyu").each(function() {
+          $(".kyu").each(function() {
             let kyu = $(this).data("kyu");
             if (kyu >= maxkyu) {
               $(this).attr("show", "show").show();
