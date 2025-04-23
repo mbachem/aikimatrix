@@ -614,10 +614,9 @@
               (typeof(m["urls"][angriff][technik]["url"]) !== "undefined") &&
               m["urls"][angriff][technik]["url"].length > 0
             ) {
-              $(this).removeClass("missing");
-              $(this).attr("href", m["urls"][angriff][technik]["url"]);
+              $(this).removeClass("missing").attr("href", m["urls"][angriff][technik]["url"]);
             } else {
-              $(this).addClass("missing");
+              $(this).addClass("missing").attr("href", "javascript:void(0);");
             }
           });
         }).change();
