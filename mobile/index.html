@@ -655,24 +655,35 @@
         </div>
 
         <p class="sources mt-3">
-          Aikimatrix: <a href="https://github.com/mbachem/aikimatrix" target="_new">Source-Code</a> -
-          <a href="https://mbachem.github.io/aikimatrix/" target="_new">Desktop-Version</a><br />
-          <a href="javascript:void(0);" target="_new" target="_new" id="sensei-url"></a>
-        </p>
-
-        <p class="sources mt-3">
-          Colors: 
           <button class="btn btn-primary kyu kyu-5 pr-2 btn-sm" data-kyu="5">5. Kyu</button>
           <button class="btn btn-primary kyu kyu-4 pr-2 btn-sm" data-kyu="4">4. Kyu</button>
           <button class="btn btn-primary kyu kyu-3 pr-2 btn-sm" data-kyu="3">3. Kyu</button>
           <button class="btn btn-primary kyu kyu-2 pr-2 btn-sm" data-kyu="2">2. Kyu</button>
           <button class="btn btn-primary kyu kyu-1 pr-2 btn-sm" data-kyu="1">1. Kyu</button>
+          <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="switchDarkMode">
+            <label class="form-check-label" for="switchDarkMode">Darkmode</label>
+          </div>
+        </p>
+        <p class="sources mt-3">
+          Aikimatrix: <a href="https://github.com/mbachem/aikimatrix" target="_new">Source-Code</a> -
+          <a href="https://mbachem.github.io/aikimatrix/" target="_new">Desktop-Version</a><br />
+          <a href="javascript:void(0);" target="_new" target="_new" id="sensei-url"></a>
         </p>
       </div>
     </div>
 
     <script>
       $(function() {
+        let colorTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        $("body").attr('data-bs-theme', colorTheme)
+        $("#switchDarkMode").prop("checked", colorTheme == "dark");
+
+        $("#switchDarkMode").change(function() {
+          let colorTheme = $("#switchDarkMode").prop("checked") ? 'dark' : 'light';
+          $("body").attr('data-bs-theme', colorTheme);
+        });
+
         let baseurl = window.location.href.split("#")[0];
         let sensei = window.location.hash.substr(1);
 
