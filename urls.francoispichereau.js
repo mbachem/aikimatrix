@@ -14,7 +14,7 @@ if (typeof(matrix) === "undefined") {
     urls : {
       1 : {
         1 : {
-          "label" : "suwari waza - ai hanmi katate dori - ikyo",
+          "label" : "suwari waza - ai hanmi katate dori - ikkyo",
           "url" : "https://youtu.be/VSf-maxyTOM?t=2"
         },
         10 : {
@@ -25,7 +25,7 @@ if (typeof(matrix) === "undefined") {
   
       2 : {
         1 : {
-          "label" : "suwari waza - gyaku hanmi katate dori - ikyo",
+          "label" : "suwari waza - gyaku hanmi katate dori - ikkyo",
           "url" : ""
         },
         2 : {
@@ -55,7 +55,7 @@ if (typeof(matrix) === "undefined") {
   
       4 : {
         1 : {
-          "label" : "suwari waza - kata dori - ikyo",
+          "label" : "suwari waza - kata dori - ikkyo",
           "url" : "https://youtu.be/xPXdIpq-zXc?t=3"
         },
         2 : {
@@ -70,7 +70,7 @@ if (typeof(matrix) === "undefined") {
   
       6 : {
         1 : {
-          "label" : "suwari waza - shomen uchi - ikyo",
+          "label" : "suwari waza - shomen uchi - ikkyo",
           "url" : "https://youtu.be/eXTgZMILWZw?t=3"
         },
         2 : {
@@ -97,7 +97,7 @@ if (typeof(matrix) === "undefined") {
   
       7 : {
         1 : {
-          "label" : "suwari waza - yokomen uchi - ikyo",
+          "label" : "suwari waza - yokomen uchi - ikkyo",
           "url" : "https://www.youtube.com/watch?v=qtMIMFFdAa8"
         },
         2 : {
@@ -128,7 +128,7 @@ if (typeof(matrix) === "undefined") {
   
       8 : {
         1 : {
-          "label" : "hanmi handachi waza - gyaku hanmi katate dori - ikyo",
+          "label" : "hanmi handachi waza - gyaku hanmi katate dori - ikkyo",
           "url" : "https://youtu.be/fIDhArw7IbA"
         },
         2 : {
@@ -170,7 +170,7 @@ if (typeof(matrix) === "undefined") {
   
       10 : {
         1 : {
-          "label" : "hanmi handachi waza - shomen uchi - ikyo",
+          "label" : "hanmi handachi waza - shomen uchi - ikkyo",
           "url" : "https://www.youtube.com/watch?v=uBhd-RhZ66Y"
         },
         2 : {
@@ -201,7 +201,7 @@ if (typeof(matrix) === "undefined") {
   
       11 : {
         1 : {
-          "label" : "hanmi handachi waza - ushiro ryo kata dori - ikyo",
+          "label" : "hanmi handachi waza - ushiro ryo kata dori - ikkyo",
           "url" : "https://www.youtube.com/watch?v=hS79SMa5fFE"
         },
         2 : {
@@ -224,7 +224,7 @@ if (typeof(matrix) === "undefined") {
   
       12 : {
         1 : {
-          "label" : "tachi waza - ai hanmi katate dori - ikyo",
+          "label" : "tachi waza - ai hanmi katate dori - ikkyo",
           "url" : "https://youtu.be/kyoz5YAaNXM"
         },
         2 : {
@@ -255,7 +255,7 @@ if (typeof(matrix) === "undefined") {
   
       13 : {
         1 : {
-          "label" : "tachi waza - gyaku hanmi katate dori - ikyo",
+          "label" : "tachi waza - gyaku hanmi katate dori - ikkyo",
           "url" : "https://youtu.be/5DR2ATA_X9Y"
         },
         2 : {
@@ -318,7 +318,7 @@ if (typeof(matrix) === "undefined") {
   
       14 : {
         1 : {
-          "label" : "tachi waza - ryote dori - ikyo",
+          "label" : "tachi waza - ryote dori - ikkyo",
           "url" : "https://youtu.be/W3966IKbPlE" 
         },
         8 : {
@@ -345,7 +345,7 @@ if (typeof(matrix) === "undefined") {
   
       15 : {
         1 : {
-          "label" :  "tachi waza - katate ryote dori - ikyo",
+          "label" :  "tachi waza - katate ryote dori - ikkyo",
           "url" : "https://www.youtube.com/watch?v=5puINJeVO_g"
         },
         2 : {
@@ -384,7 +384,7 @@ if (typeof(matrix) === "undefined") {
   
       16 : {
         1 : {
-          "label" : "tachi waza - kata dori - ikyo",
+          "label" : "tachi waza - kata dori - ikkyo",
           "url" : "https://youtu.be/TNKal-1HahE"
         },
         2 : {
@@ -406,7 +406,7 @@ if (typeof(matrix) === "undefined") {
   
       18 : {
         1 : {
-          "label" :  "tachi waza - kata dori men uchi - ikyo",
+          "label" :  "tachi waza - kata dori men uchi - ikkyo",
           "url" : "https://www.youtube.com/watch?v=umE7GipKWU8"
         },
         2 : {
@@ -448,7 +448,7 @@ if (typeof(matrix) === "undefined") {
   
       20 : {
         1 : {
-          "label" : "tachi waza - shomen uchi - ikyo",
+          "label" : "tachi waza - shomen uchi - ikkyo",
           "url" : "https://youtu.be/pWyQEmcbRYQ"
         },
         2 : {
@@ -499,7 +499,7 @@ if (typeof(matrix) === "undefined") {
   
       21 : {
         1 : {
-          "label" : "tachi waza - yokomen uchi - ikyo",
+          "label" : "tachi waza - yokomen uchi - ikkyo",
           "url" : "https://youtu.be/u8WD-0W-pP4?t=1385"
         },
         2 : {
@@ -550,7 +550,7 @@ if (typeof(matrix) === "undefined") {
   
       22 : {
         1 : {
-          "label" : "tachi waza - chudan tsuki - ikyo",
+          "label" : "tachi waza - chudan tsuki - ikkyo",
           "url" : "https://youtu.be/IvjkTl_Iy48"
         },
         2 : {
@@ -585,7 +585,7 @@ if (typeof(matrix) === "undefined") {
   
       23 : {
         1 : {
-          "label" : "tachi waza - jodan tsuki - ikyo",
+          "label" : "tachi waza - jodan tsuki - ikkyo",
           "url" : "https://youtu.be/icXLgsg5row"
         },
         2 : {
@@ -616,7 +616,7 @@ if (typeof(matrix) === "undefined") {
   
       24 : {
         1 : {
-          "label" : "ushiro waza - ushiro ryote dori - ikyo",
+          "label" : "ushiro waza - ushiro ryote dori - ikkyo",
           "url" : "https://youtu.be/IrHylGtoJJQ"
         },
         2 : {
@@ -667,7 +667,7 @@ if (typeof(matrix) === "undefined") {
   
       26 : {
         1 : {
-          "label" : "ushiro waza - ushiro ryo kata - ikyo",
+          "label" : "ushiro waza - ushiro ryo kata - ikkyo",
           "url" : "https://youtu.be/1AxrrJbjWYA"
         },
         2 : {
@@ -698,7 +698,7 @@ if (typeof(matrix) === "undefined") {
   
       25 : {
         1 : {
-          "label" : "ushiro waza - ushiro ryo hiji dori - ikyo",
+          "label" : "ushiro waza - ushiro ryo hiji dori - ikkyo",
           "url": "https://youtu.be/hT8DVcJCeGM"
         },
         18 : {
@@ -709,7 +709,7 @@ if (typeof(matrix) === "undefined") {
   
       27 : {
         1 : {
-          "label" : "ushiro waza - ushiro eri dori - ikyo",
+          "label" : "ushiro waza - ushiro eri dori - ikkyo",
           "url": "https://youtu.be/BLiJ7bLLqFk"
         },
         8 : {
@@ -724,7 +724,7 @@ if (typeof(matrix) === "undefined") {
   
       28 : {
         1 : {
-          "label" : "ushiro waza - ushiro katate dori kubi shime - ikyo",
+          "label" : "ushiro waza - ushiro katate dori kubi shime - ikkyo",
           "url": "https://www.youtube.com/watch?v=tx7XCx60Cj0"
         },
         8 : {
