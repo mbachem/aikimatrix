@@ -4,8 +4,7 @@ The Aikimatrix is a video link list for all Aikido Kyu exam techniques according
 
 Try it now
   - Desktop: https://mbachem.github.io/aikimatrix/
-  - Mobile: https://mbachem.github.io/aikimatrix/mobiler/
-  - ..., or see the matrix in action: https://youtu.be/bb-9G5xBfYk
+  - Mobile: https://mbachem.github.io/aikimatrix/mobile/
 
 Do you have your own video collection that you'd like to see linked?
 Simply fork this project and begin with urls.template.js
