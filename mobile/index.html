@@ -751,6 +751,8 @@
           window.location.href = baseurl + '#' + $(this).val();
           let m = $('option:selected', $(this)).data("m");
 
+          document.title = 'Aikimatrix - ' + m["name"];
+
           $("a#sensei-url")
             .attr("href", m["url"])
             .html(m["url"]);
