@@ -34,6 +34,8 @@ Youtube Links (Apr. 2025)
   - "3. Kyu" https://www.youtube.com/watch?v=bi8t_-kLil8
   - "2. Kyu" https://www.youtube.com/watch?v=u8WD-0W-pP4
   - "1. Kyu" ?
+- Francois Pichereau
+  - https://www.youtube.com/@francoispichereau5103
 
 Credits
 =======
