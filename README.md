@@ -1,6 +1,6 @@
 Aikimatrix
 ==========
-The Aikimatrix is a video link list collection for all Aikido Kyu exam techniques according to the matrix from https://www.aikido-foederation.de/
+The Aikimatrix is a video link list collection for all Aikido Kyu exam techniques according to the matrix (table) from https://www.aikido-foederation.de/
 
 - Mobile: https://mbachem.github.io/aikimatrix/mobile/
 - Desktop: https://mbachem.github.io/aikimatrix/
