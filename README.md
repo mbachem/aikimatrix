@@ -13,7 +13,7 @@ Please note the GPL 3.0 license: Downloading, publishing, editing, etc. is permi
 Siblings / Forks / other
 ========================
 - Aikido Kompendium (by Aikido Doko Darmstadt g.GmbH)
-  - https://www.aikido-Kompendiums.de/
+  - https://www.aikido-Kompendium.de/
 - Basic forms (by Aikido Oberursel)
   - https://aikido-oberursel.de/en/mediapage/basic-forms
 
