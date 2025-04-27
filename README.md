@@ -10,9 +10,9 @@ Start developing with **VsCode Online**: https://vscode.dev/github/mbachem/aikim
 
 Please note the GPL 3.0 license: Downloading, publishing, editing, etc. is permitted as long as you link to the original sources and publish your changes under the GPL v3 license.
 
-Siblings / Forks / other
-========================
-- Aikido Kompendium (by Aikido Doko Darmstadt g.GmbH)
+Siblings / Forks / others
+=========================
+- Aikido Kompendium (by Aikido Dojo Darmstadt g.GmbH)
   - http://aikido-Kompendium.de/
 - Basic forms (by Aikido Oberursel)
   - https://aikido-oberursel.de/en/mediapage/basic-forms
