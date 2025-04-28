@@ -688,7 +688,7 @@
         </div>
         <div class="mt-4">
           Aikimatrix: <a href="https://github.com/mbachem/aikimatrix" target="_blank">Source-Code</a> -
-          <a href="https://mbachem.github.io/aikimatrix/" target="_blank">Desktop-Version</a>
+          <a href="https://mbachem.github.io/aikimatrix/" data-baseref="https://mbachem.github.io/aikimatrix/" target="_blank" id="todesktop">Desktop-Version</a>
           <br>
           <a href="javascript:void(0);" target="_blank" id="sensei-url"></a>
         </div>
@@ -753,6 +753,11 @@
         $("#contentcreator").change(function() {
           window.location.href = baseurl + '#' + $(this).val();
           let m = $('option:selected', $(this)).data("m");
+
+          $("a#todesktop").attr(
+            "href",
+            $("a#todesktop").data("baseref") + '#' + $(this).val()
+          );
 
           document.title = 'Aikimatrix - ' + m["name"];
 

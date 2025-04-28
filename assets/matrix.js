@@ -40,6 +40,11 @@ $(function() {
     window.location.href = baseurl + '#' + $(this).val();
     let m = $('option:selected', $(this)).data("m");
 
+    $("a#tomobile").attr(
+      "href",
+      $("a#tomobile").data("baseref") + '#' + $(this).val()
+    );
+
     $("a#sensei-url")
       .attr("href", m["url"])
       .html(m["url"]);
