@@ -345,39 +345,39 @@ matrix.push({
 
     15 : {
       1 : {
-        "label" :  "tachi waza - katate ryote dori - ikkyo",
+        "label" : "tachi waza - katate ryote dori - ikkyo",
         "url" : ""
       },
       2 : {
-        "label" :  "tachi waza - katate ryote dori - nikyo",
+        "label" : "tachi waza - katate ryote dori - nikyo",
         "url" : ""
       },
       3 : {
-        "label" :  "tachi waza - katate ryote dori - sankyo",
+        "label" : "tachi waza - katate ryote dori - sankyo",
         "url" : ""
       },
       4 : {
-        "label" :  "tachi waza - katate ryote dori - yonkyo",
+        "label" : "tachi waza - katate ryote dori - yonkyo",
         "url" : ""
       },
       8 : {
-        "label" :  "tachi waza - katate ryote dori - kote gaeshi",
+        "label" : "tachi waza - katate ryote dori - kote gaeshi",
         "url" : ""
       },
       9 : {
-        "label" :  "tachi waza - katate ryote dori - shiho nage",
+        "label" : "tachi waza - katate ryote dori - shiho nage",
         "url" : ""
       },
       10 : {
-        "label" :  "tachi waza - katate ryote dori - irimi nage",
+        "label" : "tachi waza - katate ryote dori - irimi nage",
         "url" : ""
       },
       17 : {
-        "label" :  "tachi waza - katate ryote dori - juji garami",
+        "label" : "tachi waza - katate ryote dori - juji garami",
         "url" : ""
       },
       18 : {
-        "label" :  "tachi waza - katate ryote dori - kokyo nage",
+        "label" : "tachi waza - katate ryote dori - kokyo nage",
         "url" : ""
       }
     },
@@ -399,49 +399,49 @@ matrix.push({
 
     17 : {
       18 : {
-        "label" :  "tachi waza - mae ryo kata dori - kokyu nage",
+        "label" : "tachi waza - mae ryo kata dori - kokyu nage",
         "url" : ""
       }
     },
 
     18 : {
       1 : {
-        "label" :  "tachi waza - kata dori men uchi - ikkyo",
+        "label" : "tachi waza - kata dori men uchi - ikkyo",
         "url" : ""
       },
       2 : {
-        "label" :  "tachi waza - kata dori men uchi - nikyo",
+        "label" : "tachi waza - kata dori men uchi - nikyo",
         "url" : ""
       },
       3 : {
-        "label" :  "tachi waza - kata dori men uchi - sankyo",
+        "label" : "tachi waza - kata dori men uchi - sankyo",
         "url" : ""
       },
       4 : {
-        "label" :  "tachi waza - kata dori men uchi - yonkyo",
+        "label" : "tachi waza - kata dori men uchi - yonkyo",
         "url" : ""
       },
       8 : {
-        "label" :  "tachi waza - kata dori men uchi - kote gaeshi",
+        "label" : "tachi waza - kata dori men uchi - kote gaeshi",
         "url" : ""
       },
       9 : {
-        "label" :  "tachi waza - kata dori men uchi - shiho nage",
+        "label" : "tachi waza - kata dori men uchi - shiho nage",
         "url" : ""
       },
       10 : {
-        "label" :  "tachi waza - kata dori men uchi - irimi nage",
+        "label" : "tachi waza - kata dori men uchi - irimi nage",
         "url" : ""
       },
       18 : {
-        "label" :  "tachi waza - kata dori men uchi - kokyu nage",
+        "label" : "tachi waza - kata dori men uchi - kokyu nage",
         "url" : ""
       }
     },
 
     19 : {
       9 : {
-        "label" :  "tachi waza - muna dori - shiho nage",
+        "label" : "tachi waza - muna dori - shiho nage",
         "url" : ""
       }
     },
@@ -699,41 +699,41 @@ matrix.push({
     25 : {
       1 : {
         "label" : "ushiro waza - ushiro ryo hiji dori - ikkyo",
-        "url": ""
+        "url" : ""
       },
       18 : {
         "label" : "ushiro waza - ushiro ryo hiji dori - kokyu nage",
-        "url": ""
+        "url" : ""
       }
     },
 
     27 : {
       1 : {
         "label" : "ushiro waza - ushiro eri dori - ikkyo",
-        "url": ""
+        "url" : ""
       },
       8 : {
         "label" : "ushiro waza - ushiro eri dori - kote gaeshi",
-        "url": ""
+        "url" : ""
       },
       9 : {
         "label" : "ushiro waza - ushiro eri dori - shiho nage",
-        "url": ""
+        "url" : ""
       }
     },
 
     28 : {
       1 : {
         "label" : "ushiro waza - ushiro katate dori kubi shime - ikkyo",
-        "url": ""
+        "url" : ""
       },
       8 : {
         "label" : "ushiro waza - ushiro katate dori kubi shime - kote gaeshi",
-        "url": ""
+        "url" : ""
       },
       9 : {
         "label" : "ushiro waza - ushiro katate dori kubi shime - shiho nage",
-        "url": ""
+        "url" : ""
       }
     }
   }

@@ -345,39 +345,39 @@ matrix.push({
 
     15 : {
       1 : {
-        "label" :  "tachi waza - katate ryote dori - ikkyo",
+        "label" : "tachi waza - katate ryote dori - ikkyo",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=66s"
       },
       2 : {
-        "label" :  "tachi waza - katate ryote dori - nikyo",
+        "label" : "tachi waza - katate ryote dori - nikyo",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=93s"
       },
       3 : {
-        "label" :  "tachi waza - katate ryote dori - sankyo",
+        "label" : "tachi waza - katate ryote dori - sankyo",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=121s"
       },
       4 : {
-        "label" :  "tachi waza - katate ryote dori - yonkyo",
+        "label" : "tachi waza - katate ryote dori - yonkyo",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=152s"
       },
       8 : {
-        "label" :  "tachi waza - katate ryote dori - kote gaeshi",
+        "label" : "tachi waza - katate ryote dori - kote gaeshi",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=196s"
       },
       9 : {
-        "label" :  "tachi waza - katate ryote dori - shiho nage",
+        "label" : "tachi waza - katate ryote dori - shiho nage",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=178s"
       },
       10 : {
-        "label" :  "tachi waza - katate ryote dori - irimi nage",
+        "label" : "tachi waza - katate ryote dori - irimi nage",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=208s"
       },
       17 : {
-        "label" :  "tachi waza - katate ryote dori - juji garami",
+        "label" : "tachi waza - katate ryote dori - juji garami",
         "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=16s"
       },
       18 : {
-        "label" :  "tachi waza - katate ryote dori - kokyo nage",
+        "label" : "tachi waza - katate ryote dori - kokyo nage",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=218s"
       }
     },
@@ -399,49 +399,49 @@ matrix.push({
 
     17 : {
       18 : {
-        "label" :  "tachi waza - mae ryo kata dori - kokyu nage",
+        "label" : "tachi waza - mae ryo kata dori - kokyu nage",
         "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=5s"
       }
     },
 
     18 : {
       1 : {
-        "label" :  "tachi waza - kata dori men uchi - ikkyo",
+        "label" : "tachi waza - kata dori men uchi - ikkyo",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=223s"
       },
       2 : {
-        "label" :  "tachi waza - kata dori men uchi - nikyo",
+        "label" : "tachi waza - kata dori men uchi - nikyo",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=247s"
       },
       3 : {
-        "label" :  "tachi waza - kata dori men uchi - sankyo",
+        "label" : "tachi waza - kata dori men uchi - sankyo",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=276s"
       },
       4 : {
-        "label" :  "tachi waza - kata dori men uchi - yonkyo",
+        "label" : "tachi waza - kata dori men uchi - yonkyo",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=307"
       },
       8 : {
-        "label" :  "tachi waza - kata dori men uchi - kote gaeshi",
+        "label" : "tachi waza - kata dori men uchi - kote gaeshi",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=341s"
       },
       9 : {
-        "label" :  "tachi waza - kata dori men uchi - shiho nage",
+        "label" : "tachi waza - kata dori men uchi - shiho nage",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=332s"
       },
       10 : {
-        "label" :  "tachi waza - kata dori men uchi - irimi nage",
+        "label" : "tachi waza - kata dori men uchi - irimi nage",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=353s"
       },
       18 : {
-        "label" :  "tachi waza - kata dori men uchi - kokyu nage",
+        "label" : "tachi waza - kata dori men uchi - kokyu nage",
         "url" : "https://www.youtube.com/watch?v=A8Os4buJOkQ&t=363s"
       }
     },
 
     19 : {
       9 : {
-        "label" :  "tachi waza - muna dori - shiho nage",
+        "label" : "tachi waza - muna dori - shiho nage",
         "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=9s"
       }
     },
@@ -699,41 +699,41 @@ matrix.push({
     25 : {
       1 : {
         "label" : "ushiro waza - ushiro ryo hiji dori - ikkyo",
-        "url": "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=455s"
+        "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=455s"
       },
       18 : {
         "label" : "ushiro waza - ushiro ryo hiji dori - kokyu nage",
-        "url": "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=478s"
+        "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=478s"
       }
     },
 
     27 : {
       1 : {
         "label" : "ushiro waza - ushiro eri dori - ikkyo",
-        "url": "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=485s"
+        "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=485s"
       },
       8 : {
         "label" : "ushiro waza - ushiro eri dori - kote gaeshi",
-        "url": "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=500s"
+        "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=500s"
       },
       9 : {
         "label" : "ushiro waza - ushiro eri dori - shiho nage",
-        "url": "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=513s"
+        "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=513s"
       }
     },
 
     28 : {
       1 : {
         "label" : "ushiro waza - ushiro katate dori kubi shime - ikkyo",
-        "url": "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=525s"
+        "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=525s"
       },
       8 : {
         "label" : "ushiro waza - ushiro katate dori kubi shime - kote gaeshi",
-        "url": "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=548s"
+        "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=548s"
       },
       9 : {
         "label" : "ushiro waza - ushiro katate dori kubi shime - shiho nage",
-        "url": "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=561s"
+        "url" : "https://www.youtube.com/watch?v=GC2hnFXAhOY&t=561s"
       }
     }
   }

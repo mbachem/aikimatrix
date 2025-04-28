@@ -699,41 +699,41 @@ matrix.push({
     25 : {
       1 : {
         "label" : "ushiro waza - ushiro ryo hiji dori - ikkyo",
-        "url": "https://www.youtube.com/watch_videos?video_ids=Ci_cb5tlyb0,Tb8wipTVG-4"
+        "url" : "https://www.youtube.com/watch_videos?video_ids=Ci_cb5tlyb0,Tb8wipTVG-4"
       },
       18 : {
         "label" : "ushiro waza - ushiro ryo hiji dori - kokyu nage",
-        "url": ""
+        "url" : ""
       }
     },
 
     27 : {
       1 : {
         "label" : "ushiro waza - ushiro eri dori - ikkyo",
-        "url": "https://www.youtube.com/watch_videos?video_ids=JDYDPUcwbIA,81ej6LvdkvA"
+        "url" : "https://www.youtube.com/watch_videos?video_ids=JDYDPUcwbIA,81ej6LvdkvA"
       },
       8 : {
         "label" : "ushiro waza - ushiro eri dori - kote gaeshi",
-        "url": "https://www.youtube.com/watch?v=lrBvKPIr4Fw"
+        "url" : "https://www.youtube.com/watch?v=lrBvKPIr4Fw"
       },
       9 : {
         "label" : "ushiro waza - ushiro eri dori - shiho nage",
-        "url": "https://www.youtube.com/watch?v=G5DdZJS0Jj0"
+        "url" : "https://www.youtube.com/watch?v=G5DdZJS0Jj0"
       }
     },
 
     28 : {
       1 : {
         "label" : "ushiro waza - ushiro katate dori kubi shime - ikkyo",
-        "url": "https://www.youtube.com/watch_videos?video_ids=RrusD4gyxMg,hJgtiKHCYJE"
+        "url" : "https://www.youtube.com/watch_videos?video_ids=RrusD4gyxMg,hJgtiKHCYJE"
       },
       8 : {
         "label" : "ushiro waza - ushiro katate dori kubi shime - kote gaeshi",
-        "url": "https://www.youtube.com/watch?v=6qzK2vnNB7I"
+        "url" : "https://www.youtube.com/watch?v=6qzK2vnNB7I"
       },
       9 : {
         "label" : "ushiro waza - ushiro katate dori kubi shime - shiho nage",
-        "url": "https://www.youtube.com/watch?v=HiLBy7oPDIc"
+        "url" : "https://www.youtube.com/watch?v=HiLBy7oPDIc"
       }
     }
   }
