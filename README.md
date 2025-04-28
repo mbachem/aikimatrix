@@ -9,7 +9,7 @@ Do you have your own video collection that you'd like to see linked? Simply fork
 
 Start developing with **VsCode Online**: https://vscode.dev/github/mbachem/aikimatrix
 
-Please note the GPL 3.0 license: Downloading, publishing, editing, etc. is permitted as long as you link to the original sources and publish your changes under the GPL v3 license.
+Please note the GPL v3 license: Downloading, publishing, editing, etc. is granted as long as you link to the original sources and publish your own changes under the GPL v3 license.
 
 Siblings / Forks / others
 =========================
