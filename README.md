@@ -6,6 +6,7 @@ The Aikimatrix is a video link list collection for all Aikido Kyu exam technique
 - Desktop: https://mbachem.github.io/aikimatrix/
 
 Do you have your own video collection that you'd like to see linked? Simply fork this project and begin with **urls/template.js**
+
 Start developing with **VsCode Online**: https://vscode.dev/github/mbachem/aikimatrix
 
 Please note the GPL 3.0 license: Downloading, publishing, editing, etc. is permitted as long as you link to the original sources and publish your changes under the GPL v3 license.
