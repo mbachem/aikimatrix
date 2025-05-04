@@ -1,5 +1,5 @@
 /*
- * Aikido Kompendium, Aikido Dojo Darmstadt
+ * Anita Köhler Sensei, Aikido Dojo Darmstadt
  *   http://www.aikido-kompendium.de/
  */
 
@@ -8,8 +8,8 @@ if (typeof(matrix) === "undefined") {
 }
 
 matrix.push({
-  name : "Aikido Kompendium Darmstadt",
-  tag : "kompendium.darmstadt",
+  name : "Anita Köhler Sensei",
+  tag : "anita.koehler",
   url : "http://www.aikido-kompendium.de/",
   urls : {
     1 : {
