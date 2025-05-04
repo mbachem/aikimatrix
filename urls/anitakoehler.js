@@ -3,10 +3,6 @@
  *   http://www.aikido-kompendium.de/
  */
 
-if (typeof(matrix) === "undefined") {
-  var matrix = [];
-}
-
 matrix.push({
   name : "Anita Köhler Sensei",
   tag : "anita.koehler",

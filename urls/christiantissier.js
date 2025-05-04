@@ -3,10 +3,6 @@
  *   https://christiantissier.com/
  */
 
-if (typeof(matrix) === "undefined") {
-  var matrix = [];
-}
-
 matrix.push({
   name : "Christian Tissier Sensei",
   tag : "christian.tissier",

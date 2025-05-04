@@ -9,13 +9,13 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.png">
     <link rel="stylesheet" href="assets/matrix.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/matrix.js"></script>
     <script src="urls/bodoroedel.js"></script>
     <script src="urls/christiantissier.js"></script>
     <script src="urls/karlruben.js"></script>
     <script src="urls/francoispichereau.js"></script>
     <script src="urls/anitakoehler.js"></script>
     <!-- <script src="urls/template.js"></script> -->
-    <script src="assets/matrix.js"></script>
   </head>
 
   <body>
@@ -839,5 +839,31 @@
       Aikimatrix <a href="https://mbachem.github.io/aikimatrix/mobile/" data-baseref="https://mbachem.github.io/aikimatrix/mobile/" target="_blank" id="tomobile">Mobile Version</a>, 
       <span id="sensei-name"></span>: <a href="javascript:void(0);" target="_blank" id="sensei-url"></a>
     </span>
+
+    <script>
+      function clearHighlight($highlighed) {
+        for (var kyu = 1; kyu <= 5; kyu++) {
+          $highlighed.removeClass("kyu-" + kyu);
+        }
+      }
+
+      $(function() {
+        $('table#matrix td.kyu').hover(function() {
+          let kyu = $(this).data("kyu");
+
+          clearHighlight($('tr.angriff td').add("td.technik"));
+          if (!$(this).hasClass("missing")) {
+            let angriff = Number($(this).data("angriff"));
+            let technik = Number($(this).data("technik"));
+            $('tr.angriff td:nth-child(' + angriff + ')').addClass('kyu-' + kyu);
+            $("td.technik-" + technik).addClass('kyu-' + kyu);
+          }
+        });
+
+        $('td.empty').add('tr.angriff td').add('td.technik').hover(function() {
+          clearHighlight($('tr.angriff td').add("td.technik"));
+        });
+      });
+    </script>
   </body>
 </html>

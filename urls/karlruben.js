@@ -3,10 +3,6 @@
  *   thanks to https://aikido-oberursel.de/en/mediapage/basic-forms
  */
 
-if (typeof(matrix) === "undefined") {
-  var matrix = [];
-}
-
 matrix.push({
   name : "Karl Ruben Sensei",
   tag : "karl.ruben",

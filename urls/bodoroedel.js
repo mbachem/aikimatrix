@@ -3,10 +3,6 @@
  *  https://www.aikido-schule.de/
  */
 
-if (typeof(matrix) === "undefined") {
-  var matrix = [];
-}
-
 matrix.push({
   name : "Bodo Rödel Sensei",
   tag : "bodo.roedel",

@@ -3,10 +3,6 @@
  *  start here, and load file in index.php
  */
 
-if (typeof(matrix) === "undefined") {
-  var matrix = [];
-}
-
 matrix.push({
   name : "Temp Late",
   tag : "temp.late",

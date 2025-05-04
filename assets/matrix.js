@@ -1,10 +1,17 @@
-function clearHighlight($highlighed) {
-  for (var kyu = 1; kyu <= 5; kyu++) {
-    $highlighed.removeClass("kyu-" + kyu);
-  }
+if (typeof(matrix) === "undefined") {
+  var matrix = [];
 }
 
 $(function() {
+  let colorTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  $("body").attr('data-bs-theme', colorTheme)
+  $("#switchDarkMode").prop("checked", colorTheme == "dark");
+
+  $("#switchDarkMode").change(function() {
+    let colorTheme = $("#switchDarkMode").prop("checked") ? 'dark' : 'light';
+    $("body").attr('data-bs-theme', colorTheme);
+  });
+
   let baseurl = window.location.href.split("#")[0];
   let sensei = window.location.hash.substr(1);
 
@@ -42,22 +49,6 @@ $(function() {
     $optgroup.append($option);
   }
 
-  $('table#matrix td.kyu').hover(function() {
-    let kyu = $(this).data("kyu");
-
-    clearHighlight($('tr.angriff td').add("td.technik"));
-    if (!$(this).hasClass("missing")) {
-      let angriff = Number($(this).data("angriff"));
-      let technik = Number($(this).data("technik"));
-      $('tr.angriff td:nth-child(' + angriff + ')').addClass('kyu-' + kyu);
-      $("td.technik-" + technik).addClass('kyu-' + kyu);
-    }
-  });
-
-  $('td.empty').add('tr.angriff td').add('td.technik').hover(function() {
-    clearHighlight($('tr.angriff td').add("td.technik"));
-  });
-
   $("#contentcreator").change(function() {
     window.location.href = baseurl + '#' + $(this).val();
     let m = $('option:selected', $(this)).data("m");
@@ -70,6 +61,13 @@ $(function() {
     $("a#sensei-url")
       .attr("href", m["url"])
       .html(m["url"]);
+
+    $("a#todesktop").attr(
+      "href",
+      $("a#todesktop").data("baseref") + '#' + $(this).val()
+    );
+
+    document.title = 'Aikimatrix - ' + m["name"];
 
     $("span#sensei-name").html(m["name"]);
 
@@ -101,5 +99,4 @@ $(function() {
       }
     });
   }).change();
-
-});
+})
