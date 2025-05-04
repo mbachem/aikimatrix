@@ -11,6 +11,7 @@ matrix.push({
   name : "Anita Köhler Sensei",
   tag : "anita.koehler",
   url : "http://www.aikido-kompendium.de/",
+  default: false,
   urls : {
     1 : {
       1 : {

@@ -709,7 +709,29 @@
         let baseurl = window.location.href.split("#")[0];
         let sensei = window.location.hash.substr(1);
 
+        matrix.sort(function (a, b) {
+          if (a.name < b.name) {
+            return -1;
+          }
+          if (a.name > b.name) {
+            return 1;
+          }
+          return 0;
+        });
+
         for (i=0; i<matrix.length; i++) {
+          if (!sensei && matrix[i].default) {
+            sensei = matrix[i].tag;
+          }
+
+          let initial = matrix[i].name.charAt(0);
+          let $optgroup = $("#" + initial, $("#contentcreator"));
+
+          if (!$optgroup.length) {
+            $optgroup = $('<optgroup id="' + initial + '" label="' + initial + '…" />')
+            $("#contentcreator").append($optgroup);
+          }
+
           let $option = $("<option />")
             .html(matrix[i].name)
             .attr("value", matrix[i].tag)
@@ -718,7 +740,7 @@
           if (sensei === matrix[i].tag) {
             $option.attr("selected", "selected");
           }
-          $("#contentcreator").append($option);
+          $optgroup.append($option);
         }
 
         $("#kyuselect").change(function() {

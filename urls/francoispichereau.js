@@ -11,6 +11,7 @@ if (typeof(matrix) === "undefined") {
     name : "François Pichereau Sensei",
     tag : "francois.pichereau",
     url : "https://francoispichereau-aikido.jimdoweb.com/",
+    default: false,
     urls : {
       1 : {
         1 : {

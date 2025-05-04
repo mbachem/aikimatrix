@@ -11,6 +11,7 @@ matrix.push({
   name : "Temp Late",
   tag : "temp.late",
   url : "https://github.com/mbachem/aikimatrix",
+  default: false,
   urls : {
     1 : {
       1 : {

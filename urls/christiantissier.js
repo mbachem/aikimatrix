@@ -11,6 +11,7 @@ matrix.push({
   name : "Christian Tissier Sensei",
   tag : "christian.tissier",
   url : "https://christiantissier.com/",
+  default: false,
   urls : {
     1 : {
       1 : {

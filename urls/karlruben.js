@@ -11,6 +11,7 @@ matrix.push({
   name : "Karl Ruben Sensei",
   tag : "karl.ruben",
   url : "https://www.kokoro-aikido.de/",
+  default: false,
   urls : {
     1 : {
       1 : {
