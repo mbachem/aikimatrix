@@ -71,6 +71,24 @@ $(function() {
 
     $("span#sensei-name").html(m["name"]);
 
+    // Mobile
+    $("a.kyu").each(function() {
+      let angriff = Number($(this).data("angriff"));
+      let technik = Number($(this).data("technik"));
+
+      if (
+        (typeof(m["urls"][angriff]) !== "undefined") &&
+        (typeof(m["urls"][angriff][technik]) !== "undefined") &&
+        (typeof(m["urls"][angriff][technik]["url"]) !== "undefined") &&
+        m["urls"][angriff][technik]["url"].length > 0
+      ) {
+        $(this).removeClass("missing").attr("href", m["urls"][angriff][technik]["url"]);
+      } else {
+        $(this).addClass("missing").attr("href", "javascript:void(0);");
+      }
+    });
+
+    // Desktop
     $('table#matrix td.kyu').each(function() {
       let angriff = Number($(this).data("angriff"));
       let technik = Number($(this).data("technik"));
