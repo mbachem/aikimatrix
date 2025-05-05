@@ -9,7 +9,7 @@ The Aikimatrix is a video link list collection for all Aikido Kyu exam technique
 ![Screenshot Desktop](https://mbachem.github.io/aikimatrix/assets/screenshot-desktop.png)
 
 
-![Screenshot Mobile](screenshot-mobile-darkmode.jpg)
+![Screenshot Mobile](https://mbachem.github.io/aikimatrix/assets/screenshot-mobile-darkmode.jpg)
 
 
 Do you have your own video collection that you'd like to see linked? Simply fork this project and begin with **urls/template.js**
