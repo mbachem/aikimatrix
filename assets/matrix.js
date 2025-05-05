@@ -82,9 +82,11 @@ $(function() {
         (typeof(m["urls"][angriff][technik]["url"]) !== "undefined") &&
         m["urls"][angriff][technik]["url"].length > 0
       ) {
-        $(this).removeClass("missing").attr("href", m["urls"][angriff][technik]["url"]);
+        $(this).removeClass("missing")
+          .attr("href", m["urls"][angriff][technik]["url"])
+          .attr("target", "_blank");
       } else {
-        $(this).addClass("missing").attr("href", "javascript:void(0);");
+        $(this).addClass("missing").removeAttr("href").removeAttr("target");
       }
     });
 
@@ -105,7 +107,6 @@ $(function() {
           '<a ' +
             'href="' + m["urls"][angriff][technik]["url"] + '" ' +
             'title="' + m["urls"][angriff][technik]["label"] + ' (' + kyu + '. kyu)" ' +
-            'class"external" ' +
             'target="_blank">' +
             kyu +
           '</a>'
