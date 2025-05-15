@@ -46,8 +46,11 @@ td.waza {
 
 tr.angriff td {
   width: 1em;
-  min-width: 2em;
   height: 15em;
+}
+
+tr.angriff td.empty {
+  width: 2em;
 }
 
 tr.angriff td p {
