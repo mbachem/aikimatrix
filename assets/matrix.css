@@ -45,10 +45,13 @@ td.waza {
 }
 
 tr.angriff td {
-  writing-mode: vertical-lr;
-  /* text-orientation: sideways-right;
-  text-align: center; */
-  width: 2.0em;
+  width: 1em;
+}
+
+tr.angriff td p {
+  writing-mode: sideways-right;
+  text-orientation: sideways-right;
+  margin: 0em 0.3em 0em 0.3em;
 }
 
 td.technik {
