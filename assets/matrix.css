@@ -49,10 +49,6 @@ tr.angriff td {
   height: 15em;
 }
 
-tr.angriff td.empty {
-  width: 2em;
-}
-
 tr.angriff td p {
   writing-mode: sideways-lr;
   text-orientation: sideways-right;
@@ -66,9 +62,9 @@ td.technik {
   font-size: 0.9em;
 }
 
-td.kyu {
+td.kyu, td.empty {
   text-align: center;
-  min-width: 2.0em;
+  width: 2.0em;
   cursor: pointer;
 }
 
