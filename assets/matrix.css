@@ -45,7 +45,8 @@ td.waza {
 }
 
 tr.angriff td {
-  width: 1em;
+  width: 2.0em;
+  min-width: 2.0em;
   height: 15em;
 }
 
@@ -67,6 +68,7 @@ td.technik {
 td.kyu, td.empty {
   text-align: center;
   width: 2.0em;
+  min-width: 2.0em;
   cursor: pointer;
 }
 
