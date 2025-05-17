@@ -52,7 +52,9 @@ tr.angriff td {
 tr.angriff td p {
   writing-mode: sideways-lr;
   text-orientation: sideways-right;
-  margin: 0em 0.3em 0em 0.3em;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
   white-space: nowrap;
 }
 
