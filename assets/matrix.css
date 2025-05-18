@@ -4,18 +4,18 @@
   }
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
+body { font-family: Arial, Helvetica, sans-serif; }
+h1 { font-size: 0.9em; }
 
-h1 {
-  font-size: 0.9em;
-  display: inline-block;
-}
+.kyu-1 { background-color: #996633; }
+.kyu-2 { background-color: #0099FF; }
+.kyu-3 { background-color: #00FF00; }
+.kyu-4 { background-color: #FF950E; }
+.kyu-5 { background-color: #FFFF00; }
 
-h2 {
-  font-size: 0.9em;
-  display: inline-block;
+.kyu.missing {
+  opacity: 0.3;
+  cursor: default;
 }
 
 table#matrix {
@@ -44,10 +44,24 @@ td.waza {
   padding-right: 0.2em;
 }
 
-tr.angriff td {
+td.technik {
+  white-space: nowrap;
+  padding-right: 0.5em;
+  font-size: 0.9em;
+}
+
+td.kyu, td.empty, tr.angriff td {
   width: 2.0em;
-  min-width: 2.0em;
+  min-width: 1.4em;
+}
+
+tr.angriff td {
   height: 15em;
+}
+
+td.kyu, td.empty {
+  text-align: center;
+  cursor: pointer;
 }
 
 tr.angriff td p {
@@ -57,44 +71,6 @@ tr.angriff td p {
   text-align: center;
   vertical-align: middle;
   white-space: nowrap;
-}
-
-td.technik {
-  white-space: nowrap;
-  padding-right: 0.5em;
-  font-size: 0.9em;
-}
-
-td.kyu, td.empty {
-  text-align: center;
-  width: 2.0em;
-  min-width: 2.0em;
-  cursor: pointer;
-}
-
-td.kyu.missing {
-  opacity: 0.3;
-  cursor: default;
-}
-
-.kyu-1 {
-  background-color: #996633;
-}
-
-.kyu-2 {
-  background-color: #0099FF;
-}
-
-.kyu-3 {
-  background-color: #00FF00;
-}
-
-.kyu-4 {
-  background-color: #FF950E;
-}
-
-.kyu-5 {
-  background-color: #FFFF00;
 }
 
 td a, td a:visited {
