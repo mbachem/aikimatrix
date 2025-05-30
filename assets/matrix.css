@@ -52,7 +52,7 @@ td.technik {
 
 td.kyu, td.empty, tr.angriff td {
   width: 2.0em;
-  min-width: 1.4em;
+  min-width: 1em;
 }
 
 tr.angriff td {
