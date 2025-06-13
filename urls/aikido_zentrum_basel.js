@@ -222,7 +222,7 @@ matrix.push({
     12 : {
       1 : {
         "label" : "tachi waza - ai hanmi katate dori - ikkyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=NsrLLu1NYAg&t=82s"
       },
       2 : {
         "label" : "tachi waza - ai hanmi katate dori - nikyo",
@@ -234,11 +234,11 @@ matrix.push({
       },
       9 : {
         "label" : "tachi waza - ai hanmi katate dori - shiho nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=NsrLLu1NYAg&t=136s"
       },
       10 : {
         "label" : "tachi waza - ai hanmi katate dori - irimi nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=NsrLLu1NYAg&t=182s"
       },
       15 : {
         "label" : "tachi waza - ai hanmi katate dori - ude kime nage",
