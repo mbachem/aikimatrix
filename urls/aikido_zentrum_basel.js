@@ -23,15 +23,15 @@ matrix.push({
     2 : {
       1 : {
         "label" : "suwari waza - gyaku hanmi katate dori - ikkyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs"
       },
       2 : {
         "label" : "suwari waza - gyaku hanmi katate dori - nikyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=36s"
       },
       3 : {
         "label" : "suwari waza - gyaku hanmi katate dori - sankyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=83s"
       },
       4 : {
         "label" : "suwari waza - gyaku hanmi katate dori - yonkyo",
@@ -39,7 +39,7 @@ matrix.push({
       },
       10 : {
         "label" : "suwari waza - gyaku hanmi katate dori - irmi nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=129s"
       }
     },
 
@@ -146,7 +146,7 @@ matrix.push({
       },
       9 : {
         "label" : "hanmi handachi waza - gyaku hanmi katate dori - shiho nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=146  s"
       },
       13 : {
         "label" : "hanmi handachi waza - gyaku hanmi katate dori - uchi kaiten nage",
@@ -242,7 +242,7 @@ matrix.push({
       },
       15 : {
         "label" : "tachi waza - ai hanmi katate dori - ude kime nage",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=225s"
       },
       16 : {
         "label" : "tachi waza - ai hanmi katate dori - koshi nage",
@@ -261,7 +261,7 @@ matrix.push({
       },
       3 : {
         "label" : "tachi waza - gyaku hanmi katate dori - sankyo",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=258s"
       },
       4 : {
         "label" : "tachi waza - gyaku hanmi katate dori - yonkyo",
@@ -269,7 +269,7 @@ matrix.push({
       },
       7 : {
         "label" : "tachi waza - gyaku hanmi katate dori - ude garami",
-        "url" : ""
+        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=258s"
       },
       8 : {
         "label" : "tachi waza - gyaku hanmi katate dori - kote gaeshi",
