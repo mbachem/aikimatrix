@@ -47,7 +47,7 @@ Youtube Links (Apr. 2025)
 - Francois Pichereau
   - https://www.youtube.com/@francoispichereau5103
 - Aikido Zentrum Basel
-  - Playlist "6.-1. Kyu" https://www.youtube.com/watch?v=Zzf1NNc0Two&list=PLSCFQUaVn7m8EU5kYr2eqpj3gE6VvAyIZ
+  - https://www.youtube.com/@aikidozentrumbasel68
 
 Credits
 =======
