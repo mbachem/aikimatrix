@@ -76,7 +76,7 @@ matrix.push({
         "label" : "suwari waza - ryote dori - kokyo ho",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "start" : "105",
+          "start" : 109,
           "ende" : 0
         }
       }
@@ -403,8 +403,8 @@ matrix.push({
         "label" : "tachi waza - ai hanmi katate dori - ikkyo",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "start " : "0",
-          "ende" : "19"
+          "start " : 2,
+          "ende" : 20
         }
       },
       2 : {
@@ -427,16 +427,16 @@ matrix.push({
         "label" : "tachi waza - ai hanmi katate dori - shiho nage",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "start" : "21",
-          "ende" : 0
+          "start " : 24,
+          "ende" : 40
         }
       },
       10 : {
         "label" : "tachi waza - ai hanmi katate dori - irimi nage",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "start" : "42",
-          "ende" : 0
+          "start " : 45,
+          "ende" : 51
         }
       },
       15 : {
@@ -450,9 +450,9 @@ matrix.push({
       16 : {
         "label" : "tachi waza - ai hanmi katate dori - koshi nage",
         "youtube" : {
-          "video" : "A8Os4buJOkQ",
-          "start" : "0",
-          "ende" : 0
+          "video" : "O7C433RP5Oc",
+          "start " : 55,
+          "ende" : 62
         }
       }
     },
@@ -827,8 +827,8 @@ matrix.push({
         "label" : "tachi waza - shomen uchi - ikkyo",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "start" : "63",
-          "ende" : 0
+          "start " : 67,
+          "ende" : 82
         }
       },
       2 : {
@@ -867,8 +867,8 @@ matrix.push({
         "label" : "tachi waza - shomen uchi - kote gaeshi",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "start" : "93",
-          "ende" : 0
+          "start" : 97,
+          "ende" : 101
         }
       },
       9 : {
@@ -883,8 +883,8 @@ matrix.push({
         "label" : "tachi waza - shomen uchi - irimi nage",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "start" : "83",
-          "ende" : 0
+          "start" : 87,
+          "ende" : 92
         }
       },
       13 : {
