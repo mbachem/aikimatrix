@@ -479,8 +479,8 @@ matrix.push({
         "label" : "tachi waza - gyaku hanmi katate dori - sankyo",
         "youtube" : {
           "video" : "3NGQz--VK0E",
-          "start" : "0",
-          "ende" : 0
+          "start" : 3,
+          "ende" : 25
         }
       },
       4 : {
@@ -495,8 +495,8 @@ matrix.push({
         "label" : "tachi waza - gyaku hanmi katate dori - ude garami",
         "youtube" : {
           "video" : "3NGQz--VK0E",
-          "start" : "25",
-          "ende" : 0
+          "start" : 27,
+          "ende" : 35
         }
       },
       8 : {
@@ -586,8 +586,8 @@ matrix.push({
         "label" : "tachi waza - ryote dori - ikkyo",
         "youtube" : {
           "video" : "3NGQz--VK0E",
-          "start" : "62",
-          "ende" : 0
+          "start" : 64,
+          "ende" : 81
         }
       },
       8 : {
@@ -728,8 +728,8 @@ matrix.push({
         "label" : "tachi waza - kata dori - sankyo",
         "youtube" : {
           "video" : "3NGQz--VK0E",
-          "start" : "36",
-          "ende" : 0
+          "start" : 39,
+          "ende" : 62
         }
       }
     },
