@@ -4,10 +4,10 @@
  */
 
 matrix.push({
-  name : "x-Test: Bodo Rödel Sensei",
-  tag : "x.test.bodo.roedel",
+  name : "Bodo Rödel Sensei (Youtube Player)",
+  tag : "bodo.roedel.youtube",
   url : "https://www.aikido-schule.de/",
-  default: false,
+  default: true,
   urls : {
     1 : {
       1 : {

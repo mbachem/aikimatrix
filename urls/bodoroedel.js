@@ -7,7 +7,7 @@ matrix.push({
   name : "Bodo Rödel Sensei",
   tag : "bodo.roedel",
   url : "https://www.aikido-schule.de/",
-  default: true,
+  default: false,
   urls : {
     1 : {
       1 : {
