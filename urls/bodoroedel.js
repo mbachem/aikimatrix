@@ -4,10 +4,10 @@
  */
 
 matrix.push({
-  name : "Bodo Rödel Sensei",
-  tag : "bodo.roedel",
+  name : "Bodo Rödel Sensei (External Player)",
+  tag : "bodo.roedel.ext",
   url : "https://www.aikido-schule.de/",
-  default: true,
+  default: false,
   urls : {
     1 : {
       1 : {
