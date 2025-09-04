@@ -75,18 +75,27 @@ $(function() {
     $("a.kyu").each(function() {
       let angriff = Number($(this).data("angriff"));
       let technik = Number($(this).data("technik"));
+      $(this).addClass("missing").removeClass("youtube").removeAttr("href").removeAttr("target").data("youtube", null);
 
       if (
         (typeof(m["urls"][angriff]) !== "undefined") &&
-        (typeof(m["urls"][angriff][technik]) !== "undefined") &&
+        (typeof(m["urls"][angriff][technik]) !== "undefined")
+      ) {
+        if (
         (typeof(m["urls"][angriff][technik]["url"]) !== "undefined") &&
         m["urls"][angriff][technik]["url"].length > 0
       ) {
-        $(this).removeClass("missing")
+          $(this).removeClass("missing").removeClass("youtube")
           .attr("href", m["urls"][angriff][technik]["url"])
           .attr("target", "_blank");
-      } else {
-        $(this).addClass("missing").removeAttr("href").removeAttr("target");
+        }
+        if(
+          (typeof(m["urls"][angriff][technik]["youtube"]) !== "undefined")
+        ) {
+          $(this).removeClass("missing").addClass("youtube")
+            .data('youtube', m["urls"][angriff][technik]["youtube"])
+            .data('label', m["urls"][angriff][technik]["label"]);
+        }
       }
     });
 
@@ -118,4 +127,34 @@ $(function() {
       }
     });
   }).change();
+
+
+  $("a.kyu").click(function() {
+    let youtube = $(this).data("youtube");
+    if (typeof(youtube) === "undefined") {
+      return;
+    }
+    let $dlg = $("div#youtube");
+
+    $(".modal-title", $dlg).html($(this).data("label"));
+    let url = "https://www.youtube.com/embed/" + youtube.video + "?autoplay=1&mute=1&controls=1";
+    url += "&start=" + youtube.start;
+    if (youtube.ende) {
+      url += "&end=" + youtube.ende;
+    }
+    $(".modal-body").empty();
+    $(".modal-body").append(
+      '<iframe width="100%" height="100%" src="' + url + '"' +
+      '   frameBorder="0" ' +
+      '   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>' +
+      '</iframe>'
+    );
+    $dlg.modal('toggle');
+  })
+
+  $("#closeYoutube").click(function() {
+    let $dlg = $("div#youtube");
+    $(".modal-body").empty();
+    $dlg.modal('toggle');
+  });
 })
