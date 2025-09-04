@@ -105,21 +105,29 @@ $(function() {
       let technik = Number($(this).data("technik"));
       let kyu = $(this).data("kyu");
       $(this).data("kyu", kyu);
-
       if (
         (typeof(m["urls"][angriff]) !== "undefined") &&
-        (typeof(m["urls"][angriff][technik]) !== "undefined") &&
-        (typeof(m["urls"][angriff][technik]["url"]) !== "undefined") &&
-        m["urls"][angriff][technik]["url"].length > 0
+        (typeof(m["urls"][angriff][technik]) !== "undefined")
       ) {
-        $(this).html(
-          '<a ' +
-            'href="' + m["urls"][angriff][technik]["url"] + '" ' +
-            'title="' + m["urls"][angriff][technik]["label"] + ' (' + kyu + '. kyu)" ' +
-            'target="_blank">' +
-            kyu +
-          '</a>'
-        );
+        if (typeof(m["urls"][angriff][technik]["youtube"]) !== "undefined") {
+          m["urls"][angriff][technik]["url"] =
+            "https://www.youtube.com/watch?" + 
+              "v=" + m["urls"][angriff][technik]["youtube"]["video"] +
+              "&t=" + m["urls"][angriff][technik]["youtube"]["start"];
+        }
+        if (
+          (typeof(m["urls"][angriff][technik]["url"]) !== "undefined") &&
+          m["urls"][angriff][technik]["url"].length > 0
+        ) {
+          $(this).html(
+            '<a ' +
+              'href="' + m["urls"][angriff][technik]["url"] + '" ' +
+              'title="' + m["urls"][angriff][technik]["label"] + ' (' + kyu + '. kyu)" ' +
+              'target="_blank">' +
+              kyu +
+            '</a>'
+          );
+        }
 
         $(this).removeClass("missing").attr("title", m["urls"][angriff][technik]["label"]);
       } else {

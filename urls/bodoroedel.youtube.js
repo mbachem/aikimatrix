@@ -22,7 +22,7 @@ matrix.push({
         "label" : "suwari waza - ai hanmi katate dori - irimi nage",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : 255,
+          "start" : 257,
           "ende" : 263
         }
       }
@@ -114,7 +114,8 @@ matrix.push({
         "label" : "suwari waza - shomen uchi - ikkyo",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "ende" : 0
+          "start" : 266,
+          "ende" : 520
         }
       },
       2 : {
@@ -153,8 +154,8 @@ matrix.push({
         "label" : "suwari waza - shomen uchi - irimi nage",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "280",
-          "ende" : 0
+          "start" : 283,
+          "ende" : 289
         }
       }
     },
@@ -411,8 +412,8 @@ matrix.push({
         "label" : "tachi waza - ai hanmi katate dori - nikyo",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "0",
-          "ende" : 0
+          "start" : 2,
+          "ende" : 24
         }
       },
       8 : {
@@ -443,8 +444,8 @@ matrix.push({
         "label" : "tachi waza - ai hanmi katate dori - ude kime nage",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "24",
-          "ende" : 0
+          "start" : 29,
+          "ende" : 39
         }
       },
       16 : {
@@ -462,16 +463,16 @@ matrix.push({
         "label" : "tachi waza - gyaku hanmi katate dori - ikkyo",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "39",
-          "ende" : 0
+          "start" : 39,
+          "ende" : 57
         }
       },
       2 : {
         "label" : "tachi waza - gyaku hanmi katate dori - nikyo",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "57",
-          "ende" : 0
+          "start" : 60,
+          "ende" : 93
         }
       },
       3 : {
@@ -502,56 +503,56 @@ matrix.push({
         "label" : "tachi waza - gyaku hanmi katate dori - kote gaeshi",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "98",
-          "ende" : 0
+          "start" : 100,
+          "ende" : 111
         }
       },
       9 : {
         "label" : "tachi waza - gyaku hanmi katate dori - shiho nage",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "84",
-          "ende" : 0
+          "start" : 87,
+          "ende" : 98
         }
       },
       10 : {
         "label" : "tachi waza - gyaku hanmi katate dori - irimi nage",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "111",
-          "ende" : 0
+          "start" : 114,
+          "ende" : 120
         }
       },
       11 : {
         "label" : "tachi waza - gyaku hanmi katate dori - sokumen irimi nage",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "147",
-          "ende" : 0
+          "start" : 148,
+          "ende" : 154
         }
       },
       12 : {
         "label" : "tachi waza - gyaku hanmi katate dori - tenchi nage",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "121",
-          "ende" : 0
+          "start" : 123,
+          "ende" : 127
         }
       },
       13 : {
         "label" : "tachi waza - gyaku hanmi katate dori - uchi kaiten nage",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "128",
-          "ende" : 0
+          "start" : 130,
+          "ende" : 137
         }
       },
       15 : {
         "label" : "tachi waza - gyaku hanmi katate dori - ude kime nage",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "136",
-          "ende" : 0
+          "start" : 138,
+          "ende" : 147
         }
       },
       16 : {
@@ -617,8 +618,8 @@ matrix.push({
         "label" : "tachi waza - ryote dori - tenchi nage",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "201",
-          "ende" : 0
+          "start" : 204,
+          "ende" : 208
         }
       },
       15 : {
@@ -711,16 +712,16 @@ matrix.push({
         "label" : "tachi waza - kata dori - ikkyo",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "154",
-          "ende" : 0
+          "start" : 156,
+          "ende" : 174
         }
       },
       2 : {
         "label" : "tachi waza - kata dori - nikyo",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "175",
-          "ende" : 0
+          "start" : 179,
+          "ende" : 200
         }
       },
       3 : {
@@ -835,8 +836,8 @@ matrix.push({
         "label" : "tachi waza - shomen uchi - nikyo",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "start" : "208",
-          "ende" : 0
+          "start" : 210,
+          "ende" : 237
         }
       },
       3 : {
