@@ -7,7 +7,7 @@ matrix.push({
   name : "Bodo Rödel Sensei (Youtube Player)",
   tag : "bodo.roedel.youtube",
   url : "https://www.aikido-schule.de/",
-  default: true,
+  default: false,
   urls : {
     1 : {
       1 : {
