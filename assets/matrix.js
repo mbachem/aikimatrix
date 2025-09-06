@@ -148,35 +148,35 @@ $(function() {
         $(this).attr("title", "missing").addClass("missing").html(kyu);
       }
     });
+
+    $("a.kyu").unbind("click").click(function() {
+      let youtube = $(this).data("youtube");
+      if (typeof(youtube) === "undefined") {
+        return;
+      }
+      let $dlg = $("div#youtube");
+
+      $(".modal-title", $dlg).html($(this).data("label"));
+      let url = "https://www.youtube.com/embed/" + youtube.video + "?autoplay=1&mute=1&controls=1";
+      url += "&start=" + youtube.time[0];
+      if (youtube.time[1]) {
+        url += "&end=" + youtube.time[1];
+      }
+      $(".modal-body").empty();
+      $(".modal-body").append(
+        '<iframe width="100%" height="100%" src="' + url + '"' +
+        '   frameBorder="0" ' +
+        '   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>' +
+        '</iframe>'
+      );
+      if ($(this).data("desktop")) {
+        $dlg.show();
+      } else {
+        $dlg.modal('toggle');
+      }
+    })
+
   }).change();
-
-
-  $("a.kyu").click(function() {
-    let youtube = $(this).data("youtube");
-    if (typeof(youtube) === "undefined") {
-      return;
-    }
-    let $dlg = $("div#youtube");
-
-    $(".modal-title", $dlg).html($(this).data("label"));
-    let url = "https://www.youtube.com/embed/" + youtube.video + "?autoplay=1&mute=1&controls=1";
-    url += "&start=" + youtube.time[0];
-    if (youtube.time[1]) {
-      url += "&end=" + youtube.time[1];
-    }
-    $(".modal-body").empty();
-    $(".modal-body").append(
-      '<iframe width="100%" height="100%" src="' + url + '"' +
-      '   frameBorder="0" ' +
-      '   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>' +
-      '</iframe>'
-    );
-    if ($(this).data("desktop")) {
-      $dlg.show();
-    } else {
-      $dlg.modal('toggle');
-    }
-  })
 
   $("#closeYoutube").click(function() {
     let $dlg = $("div#youtube");

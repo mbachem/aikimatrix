@@ -359,7 +359,7 @@ matrix.push({
         "label" : "tachi waza - ai hanmi katate dori - ikkyo",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "start " : [2, 20]
+          "time" : [2, 20]
         }
       },
       2 : {
@@ -380,14 +380,14 @@ matrix.push({
         "label" : "tachi waza - ai hanmi katate dori - shiho nage",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "start " : [24, 40]
+          "time" : [24, 40]
         }
       },
       10 : {
         "label" : "tachi waza - ai hanmi katate dori - irimi nage",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "start " : [45, 51]
+          "time" : [45, 51]
         }
       },
       15 : {
@@ -401,7 +401,7 @@ matrix.push({
         "label" : "tachi waza - ai hanmi katate dori - koshi nage",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "start " : [55, 62]
+          "time" : [55, 62]
         }
       }
     },
@@ -733,7 +733,7 @@ matrix.push({
         "label" : "tachi waza - shomen uchi - ikkyo",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "start " : [67, 82]
+          "time" : [67, 82]
         }
       },
       2 : {
