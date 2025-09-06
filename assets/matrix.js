@@ -82,13 +82,14 @@ $(function() {
         (typeof(m["urls"][angriff][technik]) !== "undefined")
       ) {
         if (
-        (typeof(m["urls"][angriff][technik]["url"]) !== "undefined") &&
-        m["urls"][angriff][technik]["url"].length > 0
-      ) {
+          (typeof(m["urls"][angriff][technik]["url"]) !== "undefined") &&
+          m["urls"][angriff][technik]["url"].length > 0
+        ) {
           $(this).removeClass("missing").removeClass("youtube")
           .attr("href", m["urls"][angriff][technik]["url"])
           .attr("target", "_blank");
         }
+
         if(
           (typeof(m["urls"][angriff][technik]["youtube"]) !== "undefined")
         ) {
@@ -109,12 +110,7 @@ $(function() {
         (typeof(m["urls"][angriff]) !== "undefined") &&
         (typeof(m["urls"][angriff][technik]) !== "undefined")
       ) {
-        if (typeof(m["urls"][angriff][technik]["youtube"]) !== "undefined") {
-          m["urls"][angriff][technik]["url"] =
-            "https://www.youtube.com/watch?" + 
-              "v=" + m["urls"][angriff][technik]["youtube"]["video"] +
-              "&t=" + m["urls"][angriff][technik]["youtube"]["start"];
-        }
+
         if (
           (typeof(m["urls"][angriff][technik]["url"]) !== "undefined") &&
           m["urls"][angriff][technik]["url"].length > 0
@@ -126,6 +122,24 @@ $(function() {
               'target="_blank">' +
               kyu +
             '</a>'
+          );
+        }
+
+        if (typeof(m["urls"][angriff][technik]["youtube"]) !== "undefined") {
+         $a = $(
+          '<a ' +
+            'title="' + m["urls"][angriff][technik]["label"] + ' (' + kyu + '. kyu)" ' +
+            'target="_blank" class="kyu desktop">' +
+            kyu +
+          '</a>'
+          );
+          $a
+            .data("youtube", m["urls"][angriff][technik]["youtube"])
+            .data("desktop", 1)
+            .data("label", m["urls"][angriff][technik]["label"]);
+
+          $(this).html(
+            $a
           );
         }
 
@@ -146,9 +160,9 @@ $(function() {
 
     $(".modal-title", $dlg).html($(this).data("label"));
     let url = "https://www.youtube.com/embed/" + youtube.video + "?autoplay=1&mute=1&controls=1";
-    url += "&start=" + youtube.start;
-    if (youtube.ende) {
-      url += "&end=" + youtube.ende;
+    url += "&start=" + youtube.time[0];
+    if (youtube.time[1]) {
+      url += "&end=" + youtube.time[1];
     }
     $(".modal-body").empty();
     $(".modal-body").append(
@@ -157,7 +171,11 @@ $(function() {
       '   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>' +
       '</iframe>'
     );
-    $dlg.modal('toggle');
+    if ($(this).data("desktop")) {
+      $dlg.show();
+    } else {
+      $dlg.modal('toggle');
+    }
   })
 
   $("#closeYoutube").click(function() {
@@ -165,4 +183,10 @@ $(function() {
     $(".modal-body").empty();
     $dlg.modal('toggle');
   });
+
+  $("span.close").click(function() {
+    let $dlg = $("div#youtube");
+    $(".modal-body").empty();
+    $dlg.hide();
+  })
 })
