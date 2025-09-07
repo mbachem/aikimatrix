@@ -12,7 +12,10 @@ matrix.push({
     1 : {
       1 : {
         "label" : "suwari waza - ai hanmi katate dori - ikkyo",
-        "url" : "https://www.youtube.com/watch?v=Zzf1NNc0Two&t=41s"
+        "youtube" : {
+          "video" : "Zzf1NNc0Two",
+          "time" : [41, 0]
+        }
       },
       10 : {
         "label" : "suwari waza - ai hanmi katate dori - irimi nage"
@@ -22,22 +25,34 @@ matrix.push({
     2 : {
       1 : {
         "label" : "suwari waza - gyaku hanmi katate dori - ikkyo",
-        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs"
+        "youtube" : {
+          "video" : "YxSV71GUqFs",
+          "time" : [0, 0]
+        }
       },
       2 : {
         "label" : "suwari waza - gyaku hanmi katate dori - nikyo",
-        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=36s"
+        "youtube" : {
+          "video" : "YxSV71GUqFs",
+          "time" : [36, 0]
+        }
       },
       3 : {
         "label" : "suwari waza - gyaku hanmi katate dori - sankyo",
-        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=83s"
+        "youtube" : {
+          "video" : "YxSV71GUqFs",
+          "time" : [83, 0]
+        }
       },
       4 : {
         "label" : "suwari waza - gyaku hanmi katate dori - yonkyo"
       },
       10 : {
         "label" : "suwari waza - gyaku hanmi katate dori - irmi nage",
-        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=129s"
+        "youtube" : {
+          "video" : "YxSV71GUqFs",
+          "time" : [129, 0]
+        }
       }
     },
 
@@ -122,7 +137,10 @@ matrix.push({
       },
       9 : {
         "label" : "hanmi handachi waza - gyaku hanmi katate dori - shiho nage",
-        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=146  s"
+        "youtube" : {
+          "video" : "YxSV71GUqFs",
+          "time" : [146, 0]
+        }
       },
       13 : {
         "label" : "hanmi handachi waza - gyaku hanmi katate dori - uchi kaiten nage"
@@ -183,27 +201,45 @@ matrix.push({
     12 : {
       1 : {
         "label" : "tachi waza - ai hanmi katate dori - ikkyo",
-        "url" : "https://www.youtube.com/watch?v=NsrLLu1NYAg&t=82s"
+        "youtube" : {
+          "video" : "NsrLLu1NYAg",
+          "time" : [82, 0]
+        }
       },
       2 : {
         "label" : "tachi waza - ai hanmi katate dori - nikyo",
-        "url" : "https://www.youtube.com/watch?v=Zzf1NNc0Two&t=129s"
+        "youtube" : {
+          "video" : "Zzf1NNc0Two",
+          "time" : [129, 0]
+        }
       },
       8 : {
         "label" : "tachi waza - ai hanmi katate dori - kote gaeshi",
-        "url" : "https://www.youtube.com/watch?v=Zzf1NNc0Two&t=202s"
+        "youtube" : {
+          "video" : "Zzf1NNc0Two",
+          "time" : [202, 0]
+        }
       },
       9 : {
         "label" : "tachi waza - ai hanmi katate dori - shiho nage",
-        "url" : "https://www.youtube.com/watch?v=NsrLLu1NYAg&t=136s"
+        "youtube" : {
+          "video" : "NsrLLu1NYAg",
+          "time" : [136, 0]
+        }
       },
       10 : {
         "label" : "tachi waza - ai hanmi katate dori - irimi nage",
-        "url" : "https://www.youtube.com/watch?v=NsrLLu1NYAg&t=182s"
+        "youtube" : {
+          "video" : "NsrLLu1NYAg",
+          "time" : [182, 0]
+        }
       },
       15 : {
         "label" : "tachi waza - ai hanmi katate dori - ude kime nage",
-        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=225s"
+        "youtube" : {
+          "video" : "YxSV71GUqFs",
+          "time" : [225, 0]
+        }
       },
       16 : {
         "label" : "tachi waza - ai hanmi katate dori - koshi nage"
@@ -213,49 +249,79 @@ matrix.push({
     13 : {
       1 : {
         "label" : "tachi waza - gyaku hanmi katate dori - ikkyo",
-        "url" : "https://www.youtube.com/watch?v=SyBxbkbdJWA"
+        "youtube" : {
+          "video" : "SyBxbkbdJWA",
+          "time" : [0, 0]
+        }
       },
       2 : {
         "label" : "tachi waza - gyaku hanmi katate dori - nikyo",
-        "url" : "https://www.youtube.com/watch?v=SyBxbkbdJWA&t=43s"
+        "youtube" : {
+          "video" : "SyBxbkbdJWA",
+          "time" : [43, 0]
+        }
       },
       3 : {
         "label" : "tachi waza - gyaku hanmi katate dori - sankyo",
-        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=258s"
+        "youtube" : {
+          "video" : "YxSV71GUqFs",
+          "time" : [258, 0]
+        }
       },
       4 : {
         "label" : "tachi waza - gyaku hanmi katate dori - yonkyo"
       },
       7 : {
         "label" : "tachi waza - gyaku hanmi katate dori - ude garami",
-        "url" : "https://www.youtube.com/watch?v=YxSV71GUqFs&t=258s"
+        "youtube" : {
+          "video" : "YxSV71GUqFs",
+          "time" : [258, 0]
+        }
       },
       8 : {
         "label" : "tachi waza - gyaku hanmi katate dori - kote gaeshi",
-        "url" : "https://www.youtube.com/watch?v=SyBxbkbdJWA&t=104s"
+        "youtube" : {
+          "video" : "SyBxbkbdJWA",
+          "time" : [104, 0]
+        }
       },
       9 : {
         "label" : "tachi waza - gyaku hanmi katate dori - shiho nage",
-        "url" : "https://www.youtube.com/watch?v=SyBxbkbdJWA&t=150s"
+        "youtube" : {
+          "video" : "SyBxbkbdJWA",
+          "time" : [150, 0]
+        }
       },
       10 : {
         "label" : "tachi waza - gyaku hanmi katate dori - irimi nage",
-        "url" : "https://www.youtube.com/watch?v=SyBxbkbdJWA&t=128s"
+        "youtube" : {
+          "video" : "SyBxbkbdJWA",
+          "time" : [128, 0]
+        }
       },
       11 : {
         "label" : "tachi waza - gyaku hanmi katate dori - sokumen irimi nage"
       },
       12 : {
         "label" : "tachi waza - gyaku hanmi katate dori - tenchi nage",
-        "url" : "https://www.youtube.com/watch?v=SyBxbkbdJWA&t=225s"
+        "youtube" : {
+          "video" : "SyBxbkbdJWA",
+          "time" : [225, 0]
+        }
       },
       13 : {
         "label" : "tachi waza - gyaku hanmi katate dori - uchi kaiten nage",
-        "url" : "https://www.youtube.com/watch?v=SyBxbkbdJWA&t=182s"
+        "youtube" : {
+          "video" : "SyBxbkbdJWA",
+          "time" : [182, 0]
+        }
       },
       15 : {
         "label" : "tachi waza - gyaku hanmi katate dori - ude kime nage",
-        "url" : "https://www.youtube.com/watch?v=EJVxiyWvt3I"
+        "youtube" : {
+          "video" : "EJVxiyWvt3I",
+          "time" : [0, 0]
+        }
       },
       16 : {
         "label" : "tachi waza - gyaku hanmi katate dori - koshi nage"
@@ -271,26 +337,41 @@ matrix.push({
     14 : {
       1 : {
         "label" : "tachi waza - ryote dori - ikkyo",
-        "url" : "https://www.youtube.com/watch?v=EJVxiyWvt3I&t=99s"
+        "youtube" : {
+          "video" : "EJVxiyWvt3I",
+          "time" : [99, 0]
+        }
       },
       8 : {
         "label" : "tachi waza - ryote dori - kote gaeshi"
       },
       9 : {
         "label" : "tachi waza - ryote dori - shiho nage",
-        "url" : "https://www.youtube.com/watch?v=EJVxiyWvt3I&t=232s"
+        "youtube" : {
+          "video" : "EJVxiyWvt3I",
+          "time" : [232, 0]
+        }
       },
       10 : {
         "label" : "tachi waza - ryote dori - irmi nage",
-        "url" : "https://www.youtube.com/watch?v=EJVxiyWvt3I&t=274s"
+        "youtube" : {
+          "video" : "EJVxiyWvt3I",
+          "time" : [274, 0]
+        }
       },
       12 : {
         "label" : "tachi waza - ryote dori - tenchi nage",
-        "url" : "https://www.youtube.com/watch?v=EJVxiyWvt3I&t=337s"
+        "youtube" : {
+          "video" : "EJVxiyWvt3I",
+          "time" : [337, 0]
+        }
       },
       15 : {
         "label" : "tachi waza - ryote dori - ude kime nage",
-        "url" : "https://www.youtube.com/watch?v=EJVxiyWvt3I&t=300s"
+        "youtube" : {
+          "video" : "EJVxiyWvt3I",
+          "time" : [300, 0]
+        }
       }
     },
 
@@ -327,15 +408,24 @@ matrix.push({
     16 : {
       1 : {
         "label" : "tachi waza - kata dori - ikkyo",
-        "url" : "https://www.youtube.com/watch?v=EJVxiyWvt3I&t=367s"
+        "youtube" : {
+          "video" : "EJVxiyWvt3I",
+          "time" : [367, 0]
+        }
       },
       2 : {
         "label" : "tachi waza - kata dori - nikyo",
-        "url" : "https://www.youtube.com/watch?v=EJVxiyWvt3I&t=402s"
+        "youtube" : {
+          "video" : "EJVxiyWvt3I",
+          "time" : [402, 0]
+        }
       },
       3 : {
         "label" : "tachi waza - kata dori - sankyo",
-        "url" : "https://www.youtube.com/watch?v=EJVxiyWvt3I&t=445s"
+        "youtube" : {
+          "video" : "EJVxiyWvt3I",
+          "time" : [445, 0]
+        }
       }
     },
 
