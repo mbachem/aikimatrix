@@ -4,8 +4,8 @@
  */
 
 matrix.push({
-  name: "Karl Ruben Sensei (Embedded Player)",
-  tag: "karl.ruben.embedded",
+  name: "Karl Ruben Sensei",
+  tag: "karl.ruben",
   url: "https://www.kokoro-aikido.de/",
   default: false,
   urls: {
