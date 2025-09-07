@@ -366,7 +366,7 @@ matrix.push({
         "label" : "tachi waza - ai hanmi katate dori - nikyo",
         "youtube" : {
           "video" : "QPbWxeMZO-E",
-          "time" : [2, 24]
+          "time" : [3, 24]
         }
       },
       8 : {
@@ -400,8 +400,8 @@ matrix.push({
       16 : {
         "label" : "tachi waza - ai hanmi katate dori - koshi nage",
         "youtube" : {
-          "video" : "O7C433RP5Oc",
-          "time" : [55, 62]
+          "video" : "A8Os4buJOkQ",
+          "time" : [0, 7]
         }
       }
     },
@@ -432,7 +432,7 @@ matrix.push({
         "label" : "tachi waza - gyaku hanmi katate dori - yonkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [8, 0]
+          "time" : [8, 28]
         }
       },
       7 : {
@@ -495,14 +495,14 @@ matrix.push({
         "label" : "tachi waza - gyaku hanmi katate dori - koshi nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [29, 0]
+          "time" : [31, 38]
         }
       },
       18 : {
         "label" : "tachi waza - gyaku hanmi katate dori - kokyu nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [38, 0]
+          "time" : [39, 47]
         }
       },
       20 : {
@@ -526,7 +526,7 @@ matrix.push({
         "label" : "tachi waza - ryote dori - kote gaeshi",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [47, 0]
+          "time" : [48, 54]
         }
       },
       9 : {
@@ -554,7 +554,7 @@ matrix.push({
         "label" : "tachi waza - ryote dori - ude kime nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [55, 0]
+          "time" : [58, 66]
         }
       }
     },
@@ -564,49 +564,49 @@ matrix.push({
         "label" : "tachi waza - katate ryote dori - ikkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [66, 0]
+          "time" : [66, 92]
         }
       },
       2 : {
         "label" : "tachi waza - katate ryote dori - nikyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [93, 0]
+          "time" : [96, 121]
         }
       },
       3 : {
         "label" : "tachi waza - katate ryote dori - sankyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [121, 0]
+          "time" : [124, 152]
         }
       },
       4 : {
         "label" : "tachi waza - katate ryote dori - yonkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [152, 0]
+          "time" : [155, 177]
         }
       },
       8 : {
         "label" : "tachi waza - katate ryote dori - kote gaeshi",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [196, 0]
+          "time" : [199, 209]
         }
       },
       9 : {
         "label" : "tachi waza - katate ryote dori - shiho nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [178, 0]
+          "time" : [180, 196]
         }
       },
       10 : {
         "label" : "tachi waza - katate ryote dori - irimi nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [208, 0]
+          "time" : [210, 218]
         }
       },
       17 : {
@@ -620,7 +620,7 @@ matrix.push({
         "label" : "tachi waza - katate ryote dori - kokyo nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [218, 0]
+          "time" : [220, 224]
         }
       }
     },
@@ -664,56 +664,56 @@ matrix.push({
         "label" : "tachi waza - kata dori men uchi - ikkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [223, 0]
+          "time" : [225, 246]
         }
       },
       2 : {
         "label" : "tachi waza - kata dori men uchi - nikyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [247, 0]
+          "time" : [251, 275]
         }
       },
       3 : {
         "label" : "tachi waza - kata dori men uchi - sankyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [276, 0]
+          "time" : [278, 306]
         }
       },
       4 : {
         "label" : "tachi waza - kata dori men uchi - yonkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [30, 0]
+          "time" : [310, 331]
         }
       },
       8 : {
         "label" : "tachi waza - kata dori men uchi - kote gaeshi",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [341, 0]
+          "time" : [343, 352]
         }
       },
       9 : {
         "label" : "tachi waza - kata dori men uchi - shiho nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [332, 0]
+          "time" : [335, 340]
         }
       },
       10 : {
         "label" : "tachi waza - kata dori men uchi - irimi nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [353, 0]
+          "time" : [356, 363]
         }
       },
       18 : {
         "label" : "tachi waza - kata dori men uchi - kokyu nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [363, 0]
+          "time" : [365, 368]
         }
       }
     },
@@ -754,7 +754,7 @@ matrix.push({
         "label" : "tachi waza - shomen uchi - yonkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [368, 0]
+          "time" : [370, 391]
         }
       },
       5 : {
@@ -775,7 +775,7 @@ matrix.push({
         "label" : "tachi waza - shomen uchi - shiho nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [391, 0]
+          "time" : [392, 399]
         }
       },
       10 : {
