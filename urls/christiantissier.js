@@ -11,12 +11,10 @@ matrix.push({
   urls : {
     1 : {
       1 : {
-        "label" : "suwari waza - ai hanmi katate dori - ikkyo",
-        "url" : ""
+        "label" : "suwari waza - ai hanmi katate dori - ikkyo"
       },
       10 : {
-        "label" : "suwari waza - ai hanmi katate dori - irimi nage",
-        "url" : ""
+        "label" : "suwari waza - ai hanmi katate dori - irimi nage"
       }
     },
 
@@ -30,23 +28,19 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=qbRbx-ntIC0&t=1139s"
       },
       3 : {
-        "label" : "suwari waza - gyaku hanmi katate dori - sankyo",
-        "url" : ""
+        "label" : "suwari waza - gyaku hanmi katate dori - sankyo"
       },
       4 : {
-        "label" : "suwari waza - gyaku hanmi katate dori - yonkyo",
-        "url" : ""
+        "label" : "suwari waza - gyaku hanmi katate dori - yonkyo"
       },
       10 : {
-        "label" : "suwari waza - gyaku hanmi katate dori - irmi nage",
-        "url" : ""
+        "label" : "suwari waza - gyaku hanmi katate dori - irmi nage"
       }
     },
 
     3 : {
       21 : {
-        "label" : "suwari waza - ryote dori - kokyo ho",
-        "url" : ""
+        "label" : "suwari waza - ryote dori - kokyo ho"
       }
     },
 
@@ -56,12 +50,10 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=qbRbx-ntIC0&t=1111s"
       },
       2 : {
-        "label" : "suwari waza - kata dori - nikyo",
-        "url" : ""
+        "label" : "suwari waza - kata dori - nikyo"
       },
       3 : {
-        "label" : "suwari waza - kata dori - sankyo",
-        "url" : ""
+        "label" : "suwari waza - kata dori - sankyo"
       }
     },
 
@@ -75,16 +67,13 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=qbRbx-ntIC0&t=1172s"
       },
       3 : {
-        "label" : "suwari waza - shomen uchi - sankyo",
-        "url" : ""
+        "label" : "suwari waza - shomen uchi - sankyo"
       },
       4 : {
-        "label" : "suwari waza - shomen uchi - yonkyo",
-        "url" : ""
+        "label" : "suwari waza - shomen uchi - yonkyo"
       },
       5 : {
-        "label" : "suwari waza - shomen uchi - gokyo",
-        "url" : ""
+        "label" : "suwari waza - shomen uchi - gokyo"
       },
       10 : {
         "label" : "suwari waza - shomen uchi - irimi nage",
@@ -94,55 +83,43 @@ matrix.push({
 
     7 : {
       1 : {
-        "label" : "suwari waza - yokomen uchi - ikkyo",
-        "url" : ""
+        "label" : "suwari waza - yokomen uchi - ikkyo"
       },
       2 : {
-        "label" : "suwari waza - yokomen uchi - nikyo",
-        "url" : ""
+        "label" : "suwari waza - yokomen uchi - nikyo"
       },
       3 : {
-        "label" : "suwari waza - yokomen uchi - sankyo",
-        "url" : ""
+        "label" : "suwari waza - yokomen uchi - sankyo"
       },
       4 : {
-        "label" : "suwari waza - yokomen uchi - yonkyo",
-        "url" : ""
+        "label" : "suwari waza - yokomen uchi - yonkyo"
       },
       5 : {
-        "label" : "suwari waza - yokomen uchi - gokyo",
-        "url" : ""
+        "label" : "suwari waza - yokomen uchi - gokyo"
       },
       8 : {
-        "label" : "suwari waza - yokomen uchi - kote gaeshi",
-        "url" : ""
+        "label" : "suwari waza - yokomen uchi - kote gaeshi"
       },
       10 : {
-        "label" : "suwari waza - yokomen uchi - irimi nage",
-        "url" : ""
+        "label" : "suwari waza - yokomen uchi - irimi nage"
       }
     },
 
     8 : {
       1 : {
-        "label" : "hanmi handachi waza - gyaku hanmi katate dori - ikkyo",
-        "url" : ""
+        "label" : "hanmi handachi waza - gyaku hanmi katate dori - ikkyo"
       },
       2 : {
-        "label" : "hanmi handachi waza - gyaku hanmi katate dori - nikyo",
-        "url" : ""
+        "label" : "hanmi handachi waza - gyaku hanmi katate dori - nikyo"
       },
       3 : {
-        "label" : "hanmi handachi waza - gyaku hanmi katate dori - sankyo",
-        "url" : ""
+        "label" : "hanmi handachi waza - gyaku hanmi katate dori - sankyo"
       },
       4 : {
-        "label" : "hanmi handachi waza - gyaku hanmi katate dori - yonkyo",
-        "url" : ""
+        "label" : "hanmi handachi waza - gyaku hanmi katate dori - yonkyo"
       },
       8 : {
-        "label" : "hanmi handachi waza - gyaku hanmi katate dori - kote gaeshi",
-        "url" : ""
+        "label" : "hanmi handachi waza - gyaku hanmi katate dori - kote gaeshi"
       },
       9 : {
         "label" : "hanmi handachi waza - gyaku hanmi katate dori - shiho nage",
@@ -167,32 +144,26 @@ matrix.push({
 
     10 : {
       1 : {
-        "label" : "hanmi handachi waza - shomen uchi - ikkyo",
-        "url" : ""
+        "label" : "hanmi handachi waza - shomen uchi - ikkyo"
       },
       2 : {
-        "label" : "hanmi handachi waza - shomen uchi - nikyo",
-        "url" : ""
+        "label" : "hanmi handachi waza - shomen uchi - nikyo"
       },
       3 : {
-        "label" : "hanmi handachi waza - shomen uchi - sankyo",
-        "url" : ""
+        "label" : "hanmi handachi waza - shomen uchi - sankyo"
       },
       4 : {
-        "label" : "hanmi handachi waza - shomen uchi - yonkyo",
-        "url" : ""
+        "label" : "hanmi handachi waza - shomen uchi - yonkyo"
       },
       8 : {
-        "label" : "hanmi handachi waza - shomen uchi - kote gaeshi",
-        "url" : ""
+        "label" : "hanmi handachi waza - shomen uchi - kote gaeshi"
       },
       10 : {
         "label" : "hanmi handachi waza - shomen uchi - irimi nage",
         "url" : "https://www.youtube.com/watch?v=qbRbx-ntIC0&t=1268s"
       },
       14 : {
-        "label" : "hanmi handachi waza - shomen uchi - soto kaiten nage",
-        "url" : ""
+        "label" : "hanmi handachi waza - shomen uchi - soto kaiten nage"
       }
     },
 
@@ -202,20 +173,16 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=uUjkWiaf3BI&t=76s"
       },
       2 : {
-        "label" : "hanmi handachi waza - ushiro ryo kata dori - nikyo",
-        "url" : ""
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - nikyo"
       },
       3 : {
-        "label" : "hanmi handachi waza - ushiro ryo kata dori - sankyo",
-        "url" : ""
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - sankyo"
       },
       4 : {
-        "label" : "hanmi handachi waza - ushiro ryo kata dori - yonkyo",
-        "url" : ""
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - yonkyo"
       },
       18 : {
-        "label" : "hanmi handachi waza - ushiro ryo kata dori - kokyo nage",
-        "url" : ""
+        "label" : "hanmi handachi waza - ushiro ryo kata dori - kokyo nage"
       }
     },
     
@@ -229,8 +196,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=3Fhyh63D4IM&t=274s"
       },
       8 : {
-        "label" : "tachi waza - ai hanmi katate dori - kote gaeshi",
-        "url" : ""
+        "label" : "tachi waza - ai hanmi katate dori - kote gaeshi"
       },
       9 : {
         "label" : "tachi waza - ai hanmi katate dori - shiho nage",
@@ -264,20 +230,17 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=uUjkWiaf3BI&t=286s"
       },
       4 : {
-        "label" : "tachi waza - gyaku hanmi katate dori - yonkyo",
-        "url" : ""
+        "label" : "tachi waza - gyaku hanmi katate dori - yonkyo"
       },
       7 : {
-        "label" : "tachi waza - gyaku hanmi katate dori - ude garami",
-        "url" : ""
+        "label" : "tachi waza - gyaku hanmi katate dori - ude garami"
       },
       8 : {
         "label" : "tachi waza - gyaku hanmi katate dori - kote gaeshi",
         "url" : "https://www.youtube.com/watch?v=3Fhyh63D4IM&t=468s"
       },
       9 : {
-        "label" : "tachi waza - gyaku hanmi katate dori - shiho nage",
-        "url" : ""
+        "label" : "tachi waza - gyaku hanmi katate dori - shiho nage"
       },
       10 : {
         "label" : "tachi waza - gyaku hanmi katate dori - irimi nage",
@@ -296,16 +259,13 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=3Fhyh63D4IM&t=565s"
       },
       15 : {
-        "label" : "tachi waza - gyaku hanmi katate dori - ude kime nage",
-        "url" : ""
+        "label" : "tachi waza - gyaku hanmi katate dori - ude kime nage"
       },
       16 : {
-        "label" : "tachi waza - gyaku hanmi katate dori - koshi nage",
-        "url" : ""
+        "label" : "tachi waza - gyaku hanmi katate dori - koshi nage"
       },
       18 : {
-        "label" : "tachi waza - gyaku hanmi katate dori - kokyu nage",
-        "url" : ""
+        "label" : "tachi waza - gyaku hanmi katate dori - kokyu nage"
       },
       20 : {
         "label" : "tachi waza - gyaku hanmi katate dori - sumi otoshi",
@@ -323,8 +283,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=uUjkWiaf3BI&t=599s"
       },
       9 : {
-        "label" : "tachi waza - ryote dori - shiho nage",
-        "url" : ""
+        "label" : "tachi waza - ryote dori - shiho nage"
       },
       10 : {
         "label" : "tachi waza - ryote dori - irmi nage",
@@ -335,8 +294,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=3Fhyh63D4IM&t=532s"
       },
       15 : {
-        "label" : "tachi waza - ryote dori - ude kime nage",
-        "url" : ""
+        "label" : "tachi waza - ryote dori - ude kime nage"
       }
     },
 
@@ -350,12 +308,10 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=qbRbx-ntIC0&t=262s"
       },
       3 : {
-        "label" : "tachi waza - katate ryote dori - sankyo",
-        "url" : ""
+        "label" : "tachi waza - katate ryote dori - sankyo"
       },
       4 : {
-        "label" : "tachi waza - katate ryote dori - yonkyo",
-        "url" : ""
+        "label" : "tachi waza - katate ryote dori - yonkyo"
       },
       8 : {
         "label" : "tachi waza - katate ryote dori - kote gaeshi",
@@ -374,8 +330,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=342s"
       },
       18 : {
-        "label" : "tachi waza - katate ryote dori - kokyo nage",
-        "url" : ""
+        "label" : "tachi waza - katate ryote dori - kokyo nage"
       }
     },
 
@@ -396,8 +351,7 @@ matrix.push({
 
     17 : {
       18 : {
-        "label" : "tachi waza - mae ryo kata dori - kokyu nage",
-        "url" : ""
+        "label" : "tachi waza - mae ryo kata dori - kokyu nage"
       }
     },
 
@@ -415,8 +369,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=uUjkWiaf3BI&t=412s"
       },
       4 : {
-        "label" : "tachi waza - kata dori men uchi - yonkyo",
-        "url" : ""
+        "label" : "tachi waza - kata dori men uchi - yonkyo"
       },
       8 : {
         "label" : "tachi waza - kata dori men uchi - kote gaeshi",
@@ -431,8 +384,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=uUjkWiaf3BI&t=792s"
       },
       18 : {
-        "label" : "tachi waza - kata dori men uchi - kokyu nage",
-        "url" : ""
+        "label" : "tachi waza - kata dori men uchi - kokyu nage"
       }
     },
 
@@ -489,8 +441,7 @@ matrix.push({
         "url" : "h"
       },
       18 : {
-        "label" : "tachi waza - shomen uchi - kokyo nage",
-        "url" : ""
+        "label" : "tachi waza - shomen uchi - kokyo nage"
       }
     },
 
@@ -528,20 +479,17 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=3Fhyh63D4IM&t=490s"
       },
       10 : {
-        "label" : "tachi waza - yokomen uchi - irmi nage",
-        "url" : ""
+        "label" : "tachi waza - yokomen uchi - irmi nage"
       },
       15 : {
         "label" : "tachi waza - yokomen uchi - ude kime nage",
         "url" : "https://www.youtube.com/watch?v=3Fhyh63D4IM&t=658s"
       },
       16 : {
-        "label" : "tachi waza - yokomen uchi - koshi nage",
-        "url" : ""
+        "label" : "tachi waza - yokomen uchi - koshi nage"
       },
       18 : {
-        "label" : "tachi waza - yokomen uchi - kokyu nage",
-        "url" : ""
+        "label" : "tachi waza - yokomen uchi - kokyu nage"
       }
     },
 
@@ -551,16 +499,14 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=64s"
       },
       2 : {
-        "label" : "tachi waza - chudan tsuki - nikyo",
-        "url" : ""
+        "label" : "tachi waza - chudan tsuki - nikyo"
       },
       3 : {
         "label" : "tachi waza - chudan tsuki - sankyo",
         "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=120s"
       },
       4 : {
-        "label" : "tachi waza - chudan tsuki - yonkyo",
-        "url" : ""
+        "label" : "tachi waza - chudan tsuki - yonkyo"
       },
       8 : {
         "label" : "tachi waza - chudan tsuki - kote gaeshi",
@@ -571,12 +517,10 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=uUjkWiaf3BI&t=758s"
       },
       13 : {
-        "label" : "tachi waza - chudan tsuki - uchi kaiten nage",
-        "url" : ""
+        "label" : "tachi waza - chudan tsuki - uchi kaiten nage"
       },
       14 : {
-        "label" : "tachi waza - chudan tsuki - soto kaiten nage",
-        "url" : ""
+        "label" : "tachi waza - chudan tsuki - soto kaiten nage"
       }
     },
 
@@ -586,16 +530,13 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=47s"
       },
       2 : {
-        "label" : "tachi waza - jodan tsuki - nikyo",
-        "url" : ""
+        "label" : "tachi waza - jodan tsuki - nikyo"
       },
       3 : {
-        "label" : "tachi waza - jodan tsuki - sankyo",
-        "url" : ""
+        "label" : "tachi waza - jodan tsuki - sankyo"
       },
       4 : {
-        "label" : "tachi waza - jodan tsuki - yonkyo",
-        "url" : ""
+        "label" : "tachi waza - jodan tsuki - yonkyo"
       },
       6 : {
         "label" : "tachi waza - jodan tsuki - hiji kime osae",
@@ -606,8 +547,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=x6yuTjlemVs&t=243s"
       },
       10 : {
-        "label" : "tachi waza - jodan tsuki - irimi nage",
-        "url" : ""
+        "label" : "tachi waza - jodan tsuki - irimi nage"
       }
     },
 
@@ -625,8 +565,7 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=3Fhyh63D4IM&t=352s"
       },
       4 : {
-        "label" : "ushiro waza - ushiro ryote dori - yonkyo",
-        "url" : ""
+        "label" : "ushiro waza - ushiro ryote dori - yonkyo"
       },
       8 : {
         "label" : "ushiro waza - ushiro ryote dori - kote gaeshi",
@@ -641,24 +580,20 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=qbRbx-ntIC0&t=893s"
       },
       11 : {
-        "label" : "ushiro waza - ushiro ryote dori - sokumen irimi nage",
-        "url" : ""
+        "label" : "ushiro waza - ushiro ryote dori - sokumen irimi nage"
       },
       15 : {
         "label" : "ushiro waza - ushiro ryote dori - ude kime nage",
         "url" : "https://www.youtube.com/watch?v=qbRbx-ntIC0&t=1000s"
       },
       16 : {
-        "label" : "ushiro waza - ushiro ryote dori - koshi nage",
-        "url" : ""
+        "label" : "ushiro waza - ushiro ryote dori - koshi nage"
       },
       17 : {
-        "label" : "ushiro waza - ushiro ryote dori - juji garami",
-        "url" : ""
+        "label" : "ushiro waza - ushiro ryote dori - juji garami"
       },
       18 : {
-        "label" : "ushiro waza - ushiro ryote dori - kokyu nage",
-        "url" : ""
+        "label" : "ushiro waza - ushiro ryote dori - kokyu nage"
       }
     },
 
@@ -676,16 +611,14 @@ matrix.push({
         "url" : "https://www.youtube.com/watch?v=uUjkWiaf3BI&t=499s"
       },
       4 : {
-        "label" : "ushiro waza - ushiro ryo kata - yonkyo",
-        "url" : ""
+        "label" : "ushiro waza - ushiro ryo kata - yonkyo"
       },
       11 : {
         "label" : "ushiro waza - ushiro ryo kata dori - sokumen irimi nage",
         "url" : "https://www.youtube.com/watch?v=uUjkWiaf3BI&t=943s"
       },
       18 : {
-        "label" : "ushiro waza - ushiro ryo kata dori - kokyu nage",
-        "url" : ""
+        "label" : "ushiro waza - ushiro ryo kata dori - kokyu nage"
       },
       19 : {
         "label" : "ushiro waza - ushiro ryo kata dori - aiki otoshi",
@@ -695,12 +628,10 @@ matrix.push({
 
     25 : {
       1 : {
-        "label" : "ushiro waza - ushiro ryo hiji dori - ikkyo",
-        "url" : ""
+        "label" : "ushiro waza - ushiro ryo hiji dori - ikkyo"
       },
       18 : {
-        "label" : "ushiro waza - ushiro ryo hiji dori - kokyu nage",
-        "url" : ""
+        "label" : "ushiro waza - ushiro ryo hiji dori - kokyu nage"
       }
     },
 
@@ -721,12 +652,10 @@ matrix.push({
 
     28 : {
       1 : {
-        "label" : "ushiro waza - ushiro katate dori kubi shime - ikkyo",
-        "url" : ""
+        "label" : "ushiro waza - ushiro katate dori kubi shime - ikkyo"
       },
       8 : {
-        "label" : "ushiro waza - ushiro katate dori kubi shime - kote gaeshi",
-        "url" : ""
+        "label" : "ushiro waza - ushiro katate dori kubi shime - kote gaeshi"
       },
       9 : {
         "label" : "ushiro waza - ushiro katate dori kubi shime - shiho nage",

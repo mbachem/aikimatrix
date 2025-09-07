@@ -14,8 +14,8 @@ h1 { font-size: 0.9em; }
 .kyu-5 { background-color: #FFFF00; }
 
 .kyu.missing {
-  opacity: 0.3;
-  cursor: default;
+  opacity: 0.25;
+  cursor: default;  
 }
 
 table#matrix {
@@ -117,14 +117,13 @@ span.sources {
   height: 85%;
 }
 
-
-
 /* The Close Button */
 .close {
   color: #aaa;
   float: right;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
+  margin-bottom: 0.25em;
 }
 
 .close:hover,

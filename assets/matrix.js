@@ -105,7 +105,8 @@ $(function() {
       let angriff = Number($(this).data("angriff"));
       let technik = Number($(this).data("technik"));
       let kyu = $(this).data("kyu");
-      $(this).data("kyu", kyu);
+      $(this).data("kyu", kyu).attr("title", "missing").addClass("missing").html(kyu);
+
       if (
         (typeof(m["urls"][angriff]) !== "undefined") &&
         (typeof(m["urls"][angriff][technik]) !== "undefined")
@@ -123,6 +124,7 @@ $(function() {
               kyu +
             '</a>'
           );
+          $(this).removeClass("missing").attr("title", m["urls"][angriff][technik]["label"]);
         }
 
         if (typeof(m["urls"][angriff][technik]["youtube"]) !== "undefined") {
@@ -141,11 +143,8 @@ $(function() {
           $(this).html(
             $a
           );
+          $(this).removeClass("missing").attr("title", m["urls"][angriff][technik]["label"]);
         }
-
-        $(this).removeClass("missing").attr("title", m["urls"][angriff][technik]["label"]);
-      } else {
-        $(this).attr("title", "missing").addClass("missing").html(kyu);
       }
     });
 
