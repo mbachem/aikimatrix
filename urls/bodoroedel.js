@@ -52,7 +52,7 @@ matrix.push({
         "label" : "suwari waza - gyaku hanmi katate dori - yonkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [595, 0]
+          "time" : [599, 620]
         }
       },
       10 : {
@@ -124,7 +124,7 @@ matrix.push({
         "label" : "suwari waza - shomen uchi - yonkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [620, 0]
+          "time" : [624, 640]
         }
       },
       5 : {
@@ -148,28 +148,28 @@ matrix.push({
         "label" : "suwari waza - yokomen uchi - ikkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [640, 0]
+          "time" : [643, 665]
         }
       },
       2 : {
         "label" : "suwari waza - yokomen uchi - nikyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [666, 0]
+          "time" : [668, 694]
         }
       },
       3 : {
         "label" : "suwari waza - yokomen uchi - sankyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [695, 0]
+          "time" : [699, 720]
         }
       },
       4 : {
         "label" : "suwari waza - yokomen uchi - yonkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [720, 0]
+          "time" : [724, 742]
         }
       },
       5 : {
@@ -190,7 +190,7 @@ matrix.push({
         "label" : "suwari waza - yokomen uchi - irimi nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [742, 0]
+          "time" : [745, 753]
         }
       }
     },
@@ -228,7 +228,7 @@ matrix.push({
         "label" : "hanmi handachi waza - gyaku hanmi katate dori - kote gaeshi",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [754, 0]
+          "time" : [761, 771]
         }
       },
       9 : {
@@ -249,7 +249,7 @@ matrix.push({
         "label" : "hanmi handachi waza - gyaku hanmi katate dori - soto kaiten nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [771, 0]
+          "time" : [776, 782]
         }
       }
     },
@@ -259,7 +259,7 @@ matrix.push({
         "label" : "hanmi handachi waza - ryote dori - shiho nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [782, 0]
+          "time" : [783, 797]
         }
       },
     },
@@ -789,14 +789,14 @@ matrix.push({
         "label" : "tachi waza - shomen uchi - uchi kaiten nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [409, 0]
+          "time" : [411, 418]
         }
       },
       14 : {
         "label" : "tachi waza - shomen uchi - soto kaiten nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [400, 0]
+          "time" : [403, 408]
         }
       },
       16 : {
@@ -820,28 +820,28 @@ matrix.push({
         "label" : "tachi waza - yokomen uchi - ikkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [418, 0]
+          "time" : [420, 439]
         }
       },
       2 : {
         "label" : "tachi waza - yokomen uchi - nikyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [440, 0]
+          "time" : [443, 467]
         }
       },
       3 : {
         "label" : "tachi waza - yokomen uchi - sankyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [470, 0]
+          "time" : [470, 497]
         }
       },
       4 : {
         "label" : "tachi waza - yokomen uchi - yonkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [498, 0]
+          "time" : [501, 521]
         }
       },
       5 : {
@@ -1039,7 +1039,7 @@ matrix.push({
         "label" : "ushiro waza - ushiro ryote dori - yonkyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [521, 0]
+          "time" : [525, 548]
         }
       },
       8 : {
@@ -1053,14 +1053,14 @@ matrix.push({
         "label" : "ushiro waza - ushiro ryote dori - shiho nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [569, 0]
+          "time" : [571, 577]
         }
       },
       10 : {
         "label" : "ushiro waza - ushiro ryote dori - irimi nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [549, 0]
+          "time" : [552, 559]
         }
       },
       11 : {
@@ -1074,7 +1074,7 @@ matrix.push({
         "label" : "ushiro waza - ushiro ryote dori - ude kime nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [559, 0]
+          "time" : [563, 570]
         }
       },
       16 : {
@@ -1133,14 +1133,14 @@ matrix.push({
         "label" : "ushiro waza - ushiro ryo kata dori - sokumen irimi nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [577, 0]
+          "time" : [580, 586]
         }
       },
       18 : {
         "label" : "ushiro waza - ushiro ryo kata dori - kokyu nage",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [587, 0]
+          "time" : [590, 594]
         }
       },
       19 : {
