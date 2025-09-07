@@ -834,7 +834,7 @@ matrix.push({
         "label" : "tachi waza - yokomen uchi - sankyo",
         "youtube" : {
           "video" : "A8Os4buJOkQ",
-          "time" : [467, 0]
+          "time" : [470, 0]
         }
       },
       4 : {
