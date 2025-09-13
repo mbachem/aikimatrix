@@ -1,6 +1,8 @@
 /*
  * François Pichereau
- *   thanks to https://aikido-oberursel.de/en/mediapage/basic-forms
+ *   https://francoispichereau-aikido.jimdoweb.com/
+ *   https://www.youtube.com/@francoispichereau5103
+ *
  */
 
 matrix.push({

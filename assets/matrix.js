@@ -13,7 +13,7 @@ $(function() {
   });
 
   let baseurl = window.location.href.split("#")[0];
-  let sensei = window.location.hash.substr(1);
+  let sensei = window.location.hash.substring(1);
 
   matrix.sort(function (a, b) {
     if (a.name < b.name) {
@@ -24,6 +24,17 @@ $(function() {
     }
     return 0;
   });
+
+  // sensei available? if not, blank out to default
+  if (sensei) {
+    let sensei_ = '';
+    for (i=0; i<matrix.length; i++) {
+      if (matrix[i].tag == sensei) {
+        sensei_ = matrix[i].tag;
+      }
+    }
+    sensei = sensei_;
+  }
 
   for (i=0; i<matrix.length; i++) {
     if (!sensei && matrix[i].default) {

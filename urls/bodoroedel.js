@@ -1,6 +1,8 @@
 /*
  * Bodo Rödel Sensei
- *  https://www.aikido-schule.de/
+ *   https://www.aikido-schule.de/
+ *   https://www.youtube.com/c/BodoR%C3%B6del
+ *
  */
 
 matrix.push({

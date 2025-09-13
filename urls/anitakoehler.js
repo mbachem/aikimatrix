@@ -1,6 +1,7 @@
 /*
  * Anita Köhler Sensei, Aikido Dojo Darmstadt
  *   http://www.aikido-kompendium.de/
+ *
  */
 
 matrix.push({
