@@ -375,7 +375,7 @@ matrix.push({
         "label" : "tachi waza - ai hanmi katate dori - kote gaeshi",
         "youtube" : {
           "video" : "O7C433RP5Oc",
-          "time" : [51, 0]
+          "time" : [55, 0]
         }
       },
       9 : {
