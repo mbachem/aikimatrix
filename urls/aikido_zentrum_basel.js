@@ -19,6 +19,13 @@ matrix.push({
           "time" : [41, 0]
         }
       },
+      2 : {
+        "label" : "suwari waza - ai hanmi katate dori - nikyo",
+        "youtube" : {
+          "video" : "Zzf1NNc0Two",
+          "time" : [77, 0]
+        }
+      },
       10 : {
         "label" : "suwari waza - ai hanmi katate dori - irimi nage"
       }
@@ -213,6 +220,13 @@ matrix.push({
         "youtube" : {
           "video" : "Zzf1NNc0Two",
           "time" : [129, 0]
+        }
+      },
+      3 : {
+        "label" : "tachi waza - ai hanmi katate dori - sankyo",
+        "youtube" : {
+          "video" : "Zzf1NNc0Two",
+          "time" : [175, 0]
         }
       },
       8 : {
