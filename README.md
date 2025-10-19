@@ -21,6 +21,9 @@ Siblings / Forks / others
   - http://aikido-Kompendium.de/
 - Basic forms (by Aikido Oberursel)
   - https://aikido-oberursel.de/en/mediapage/basic-forms
+- Anki Aikido
+  - https://github.com/bjoernbroetz/anki-aikido
+
 
 Youtube Links (Apr. 2025)
 =========================
