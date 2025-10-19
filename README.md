@@ -22,7 +22,9 @@ Siblings / Forks / others
 - Basic forms (by Aikido Oberursel)
   - https://aikido-oberursel.de/en/mediapage/basic-forms
 - Anki Aikido
+  - Lernen mit Karteikarten (Flashcard deck)
   - https://github.com/bjoernbroetz/anki-aikido
+  - https://de.wikipedia.org/wiki/Anki
 
 
 Youtube Links (Apr. 2025)
