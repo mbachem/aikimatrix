@@ -21,7 +21,7 @@ Siblings / Forks / others
   - http://aikido-Kompendium.de/
 - Basic forms (by Aikido Oberursel)
   - https://aikido-oberursel.de/en/mediapage/basic-forms
-- Anki Aikido: Letn Karteikarten (Flashcard deck)
+- Anki Aikido: Karteikarten (Flashcard deck)
   - https://ankiweb.net/shared/info/286064562
   - https://github.com/bjoernbroetz/anki-aikido
   - https://de.wikipedia.org/wiki/Anki
