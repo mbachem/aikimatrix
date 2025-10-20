@@ -330,7 +330,7 @@ matrix.push({
         "label" : "hanmi handachi waza - ushiro ryo kata dori - nikyo",
         "youtube" : {
           "video" : "GC2hnFXAhOY",
-          "time" : [824, 838]
+          "time" : [828, 838]
         }
       },
       3 : {
