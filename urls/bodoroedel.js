@@ -40,7 +40,7 @@ matrix.push({
         "label" : "suwari waza - gyaku hanmi katate dori - nikyo",
         "youtube" : {
           "video" : "3NGQz--VK0E",
-          "time" : [297, 319]
+          "time" : [298, 319]
         }
       },
       3 : {
@@ -61,7 +61,7 @@ matrix.push({
         "label" : "suwari waza - gyaku hanmi katate dori - irmi nage",
         "youtube" : {
           "video" : "3NGQz--VK0E",
-          "time" : [342, 350]
+          "time" : [344, 350]
         }
       }
     },
