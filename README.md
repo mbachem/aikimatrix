@@ -17,6 +17,8 @@ Please note the GPL v3 license: Downloading, publishing, editing, etc. is grante
 
 Siblings / Forks / others
 =========================
+- Noji (Flashcard Deck)
+  - https://noji.io/shared_deck/v2_LWdjzcMBNB_8829381 
 - Aikido Kompendium (by Aikido Dojo Darmstadt g.GmbH)
   - http://aikido-Kompendium.de/
 - Basic forms (by Aikido Oberursel)
