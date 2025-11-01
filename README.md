@@ -17,16 +17,15 @@ Please note the GPL v3 license: Downloading, publishing, editing, etc. is grante
 
 Siblings / Forks / others
 =========================
-- Noji (Flashcard Deck)
-  - https://noji.io/shared_deck/v2_LWdjzcMBNB_8829381 
+- Noji (Flashcard Deck, aka Lernen mit Karteikarten)
+  - https://noji.io/shared_deck/v2_8a1dkfaL23_8829381 
+- Anki Aikido: Karteikarten (Flashcard deck)
+  - https://ankiweb.net/shared/info/286064562
+  - https://github.com/bjoernbroetz/anki-aikido
 - Aikido Kompendium (by Aikido Dojo Darmstadt g.GmbH)
   - http://aikido-Kompendium.de/
 - Basic forms (by Aikido Oberursel)
   - https://aikido-oberursel.de/en/mediapage/basic-forms
-- Anki Aikido: Karteikarten (Flashcard deck)
-  - https://ankiweb.net/shared/info/286064562
-  - https://github.com/bjoernbroetz/anki-aikido
-  - https://de.wikipedia.org/wiki/Anki
 
 
 Youtube Links (Apr. 2025)
