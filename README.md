@@ -17,9 +17,9 @@ Please note the GPL v3 license: Downloading, publishing, editing, etc. is grante
 
 Siblings / Forks / others
 =========================
-- Noji (Flashcard Deck, aka Lernen mit Karteikarten)
-  - https://noji.io/shared_deck/v2_8a1dkfaL23_8829381 
-- Anki Aikido: Karteikarten (Flashcard deck)
+- Noji (Aikimatrix powered Flashcard Deck)
+  - https://noji.io/library/deck/3643313/aikimatrix-aikido-kyu-grades-aifd
+- Anki Aikido (Flashcard deck by Bjoern Broetz)
   - https://ankiweb.net/shared/info/286064562
   - https://github.com/bjoernbroetz/anki-aikido
 - Aikido Kompendium (by Aikido Dojo Darmstadt g.GmbH)
