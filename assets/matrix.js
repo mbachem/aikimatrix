@@ -60,6 +60,43 @@ $(function() {
     $optgroup.append($option);
   }
 
+  /*
+  // export as anki/noji importable flashcard deck (CSV)
+  let csv = "";
+  $.each(matrix[2]["urls"], function(x, n) {
+    $.each(n, function(y, m) {
+      let defaultUrl = "";
+      let alternativeUrl = "";
+
+      matrix.forEach(function(item, index) {
+        let url = "";
+        if (typeof(matrix[index]["urls"][x][y].youtube) !== "undefined") {
+          url = "https://www.youtube.com/watch/" +
+            "?v=" + matrix[index]["urls"][x][y].youtube.video +
+            '&t=' + matrix[index]["urls"][x][y].youtube.time[0];
+        }
+        if (url) {
+         if (matrix[index].default) {
+           defaultUrl += "<a href=\"" + url + "\">" + matrix[index].name + "</a><br>";
+         } else {
+           alternativeUrl += "<a href=\"" + url + "\">" + matrix[index].name + "</a><br>";
+         }
+        }
+      });
+      let kyu = 0;
+      $("td.kyu").each(function(a, b) {
+        if (x == $(b).data("angriff") && y == $(b).data("technik")) {
+          kyu = $(b).data("kyu");
+        }
+      });
+      if (kyu == 1) {
+        csv += kyu + ". Kyu<br>" + "<br>" + m.label.replaceAll(" - ", "<br>") + "\t" + defaultUrl + "<br>" + alternativeUrl + "\n";
+      }
+    });
+  });
+  console.log(csv);
+  */
+
   $("#contentcreator").change(function() {
     window.location.href = baseurl + '#' + $(this).val();
     let m = $('option:selected', $(this)).data("m");
