@@ -133,9 +133,14 @@ $(function() {
           (typeof(m["urls"][angriff][technik]["url"]) !== "undefined") &&
           m["urls"][angriff][technik]["url"].length > 0
         ) {
+          let url =
+            ((typeof(m["urls"][angriff][technik]["url"]) !== "undefined") && m["urls"][angriff][technik]["url"].length > 0)
+              ? m["urls"][angriff][technik]["url"]
+              : false;
+
           $(this).removeClass("missing").removeClass("youtube")
-          .attr("href", m["urls"][angriff][technik]["url"])
-          .attr("target", "_blank");
+            .data("url", m["urls"][angriff][technik]["url"])
+            .data("label", m["urls"][angriff][technik]["label"]);
         }
 
         if(
@@ -159,23 +164,14 @@ $(function() {
         (typeof(m["urls"][angriff]) !== "undefined") &&
         (typeof(m["urls"][angriff][technik]) !== "undefined")
       ) {
+        let $a = false;
 
-        if (
-          (typeof(m["urls"][angriff][technik]["url"]) !== "undefined") &&
-          m["urls"][angriff][technik]["url"].length > 0
-        ) {
-          $(this).html(
-            '<a ' +
-              'href="' + m["urls"][angriff][technik]["url"] + '" ' +
-              'title="' + m["urls"][angriff][technik]["label"] + ' (' + kyu + '. kyu)" ' +
-              'target="_blank">' +
-              kyu +
-            '</a>'
-          );
-          $(this).removeClass("missing").attr("title", m["urls"][angriff][technik]["label"]);
-        }
-
-        if (typeof(m["urls"][angriff][technik]["youtube"]) !== "undefined") {
+        let url =
+          ((typeof(m["urls"][angriff][technik]["url"]) !== "undefined") && m["urls"][angriff][technik]["url"].length > 0)
+            ? m["urls"][angriff][technik]["url"]
+            : false;
+      
+        if (url || (typeof(m["urls"][angriff][technik]["youtube"]) !== "undefined")) {
          $a = $(
           '<a ' +
             'title="' + m["urls"][angriff][technik]["label"] + ' (' + kyu + '. kyu)" ' +
@@ -183,14 +179,14 @@ $(function() {
             kyu +
           '</a>'
           );
+
           $a
             .data("youtube", m["urls"][angriff][technik]["youtube"])
             .data("desktop", 1)
+            .data("url", url)
             .data("label", m["urls"][angriff][technik]["label"]);
 
-          $(this).html(
-            $a
-          );
+          $(this).html($a);
           $(this).removeClass("missing").attr("title", m["urls"][angriff][technik]["label"]);
         }
       }
@@ -198,24 +194,31 @@ $(function() {
 
     $("a.kyu").unbind("click").click(function() {
       let youtube = $(this).data("youtube");
-      if (typeof(youtube) === "undefined") {
-        return;
+      let $iframe = '';
+
+      let url = '';
+      if (typeof(youtube) !== "undefined" && youtube) {
+        url = "https://www.youtube.com/embed/" + youtube.video + "?autoplay=1&mute=1&controls=1";
+        url += "&start=" + youtube.time[0];
+        if (youtube.time[1]) {
+          url += "&end=" + youtube.time[1];
+        }
+
+        $iframe =
+          '<iframe width="100%" height="100%" src="' + url + '"' +
+          '   frameBorder="0" ' +
+          '   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>' +
+          '</iframe>'
+        ;
+      } else {
+        url = $(this).data('url');
+        $iframe = '<iframe width="100%" height="100%" src="' + url + '" frameBorder="0" </iframe>';
       }
       let $dlg = $("div#youtube");
 
       $(".modal-title", $dlg).html($(this).data("label"));
-      let url = "https://www.youtube.com/embed/" + youtube.video + "?autoplay=1&mute=1&controls=1";
-      url += "&start=" + youtube.time[0];
-      if (youtube.time[1]) {
-        url += "&end=" + youtube.time[1];
-      }
-      $(".modal-body").empty();
-      $(".modal-body").append(
-        '<iframe width="100%" height="100%" src="' + url + '"' +
-        '   frameBorder="0" ' +
-        '   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>' +
-        '</iframe>'
-      );
+      $(".modal-body").empty().append($iframe);
+
       if ($(this).data("desktop")) {
         $dlg.show();
       } else {
