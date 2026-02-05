@@ -176,14 +176,14 @@ matrix.push({
     12 : {
       1 : {
         "label" : "tachi waza - ai hanmi katate dori - ikkyo",
-        "url" : "sketch/tachi_waza/ai_hanmi/ikkyo/"
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/ai_hanmi/ikkyo/"
       },
       2 : {
         "label" : "tachi waza - ai hanmi katate dori - nikyo",
       },
       8 : {
         "label" : "tachi waza - ai hanmi katate dori - kote gaeshi",
-        "url": "sketch/tachi_waza/ai_hanmi/ikkyo/"
+        "url": "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/ai_hanmi/kote_gaeshi/"
       },
       9 : {
         "label" : "tachi waza - ai hanmi katate dori - shiho nage",
