@@ -191,6 +191,7 @@ matrix.push({
       },
       10 : {
         "label" : "tachi waza - ai hanmi katate dori - irimi nage",
+        "url": "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/ai_hanmi/irimi_nage/"
       },
       15 : {
         "label" : "tachi waza - ai hanmi katate dori - ude kime nage",
