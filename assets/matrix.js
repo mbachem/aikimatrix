@@ -193,6 +193,9 @@ $(function() {
     });
 
     $("a.kyu").unbind("click").click(function() {
+      if ($(this).hasClass("missing")) {
+        return;
+      }
       let youtube = $(this).data("youtube");
       let $iframe = '';
 
