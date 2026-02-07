@@ -394,6 +394,7 @@ matrix.push({
     21 : {
       1 : {
         "label" : "tachi waza - yokomen uchi - ikkyo",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/yokomen_uchi/ikkyo/"
       },
       2 : {
         "label" : "tachi waza - yokomen uchi - nikyo",
