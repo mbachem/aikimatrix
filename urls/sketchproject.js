@@ -38,7 +38,7 @@ matrix.push({
     3 : {
       21 : {
         "label" : "suwari waza - ryote dori - kokyu ho",
-        "url" : "https://mbachem.github.io/aikimatrix/sketch/uwari_waza/ryote_dori/kokyu_ho/"
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/suwari_waza/ryote_dori/kokyu_ho/"
       }
     },
 
