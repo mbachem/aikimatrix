@@ -37,7 +37,8 @@ matrix.push({
 
     3 : {
       21 : {
-        "label" : "suwari waza - ryote dori - kokyo ho",
+        "label" : "suwari waza - ryote dori - kokyu ho",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/uwari_waza/ryote_dori/kokyu_ho/"
       }
     },
 
@@ -370,12 +371,14 @@ matrix.push({
       },
       8 : {
         "label" : "tachi waza - shomen uchi - kote gaeshi",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/shomen_uchi/kote_gaeshi/"
       },
       9 : {
         "label" : "tachi waza - shomen uchi - shiho nage",
       },
       10 : {
         "label" : "tachi waza - shomen uchi - irimi nage",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/shomen_uchi/irimi_nage/"
       },
       13 : {
         "label" : "tachi waza - shomen uchi - uchi kaiten nage",
