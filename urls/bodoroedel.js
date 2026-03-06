@@ -486,6 +486,13 @@ matrix.push({
           "time" : [130, 137]
         }
       },
+      14 : {
+        "label" : "tachi waza - gyaku hanmi katate dori - soto kaiten nage",
+        "youtube" : {
+          "video" : "GlRpXG4Y40E",
+          "time" : [20, 36]
+        }
+      },
       15 : {
         "label" : "tachi waza - gyaku hanmi katate dori - ude kime nage",
         "youtube" : {
