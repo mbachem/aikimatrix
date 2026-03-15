@@ -205,6 +205,7 @@ matrix.push({
     13 : {
       1 : {
         "label" : "tachi waza - gyaku hanmi katate dori - ikkyo",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/katate_dori/ikkyo/"
       },
       2 : {
         "label" : "tachi waza - gyaku hanmi katate dori - nikyo",
