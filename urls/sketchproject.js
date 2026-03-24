@@ -222,6 +222,7 @@ matrix.push({
       },
       8 : {
         "label" : "tachi waza - gyaku hanmi katate dori - kote gaeshi",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/katate_dori/kote_gaeshi/"
       },
       9 : {
         "label" : "tachi waza - gyaku hanmi katate dori - shiho nage",
@@ -231,6 +232,7 @@ matrix.push({
       },
       11 : {
         "label" : "tachi waza - gyaku hanmi katate dori - sokumen irimi nage",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/katate_dori/soto_kaiten_nage/"
       },
       12 : {
         "label" : "tachi waza - gyaku hanmi katate dori - tenchi nage",
