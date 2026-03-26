@@ -247,6 +247,7 @@ matrix.push({
       },
       15 : {
         "label" : "tachi waza - gyaku hanmi katate dori - ude kime nage",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/katate_dori/ude_kime_nage/"
       },
       16 : {
         "label" : "tachi waza - gyaku hanmi katate dori - koshi nage",
