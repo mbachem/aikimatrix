@@ -316,9 +316,11 @@ matrix.push({
     16 : {
       1 : {
         "label" : "tachi waza - kata dori - ikkyo",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/kata_dori/ikkyo/"
       },
       2 : {
         "label" : "tachi waza - kata dori - nikyo",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/kata_dori/nikyo/"
       },
       3 : {
         "label" : "tachi waza - kata dori - sankyo",
