@@ -11,6 +11,7 @@ matrix.push({
     1 : {
       1 : {
         "label" : "suwari waza - ai hanmi katate dori - ikkyo",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/suwari_waza/ai_hanmi/ikkyo/"
       },
       10 : {
         "label" : "suwari waza - ai hanmi katate dori - irimi nage",
