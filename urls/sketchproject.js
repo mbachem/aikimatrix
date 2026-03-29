@@ -15,6 +15,7 @@ matrix.push({
       },
       10 : {
         "label" : "suwari waza - ai hanmi katate dori - irimi nage",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/suwari_waza/ai_hanmi/irimi_nage/"
       }
     },
 
@@ -58,6 +59,7 @@ matrix.push({
     6 : {
       1 : {
         "label" : "suwari waza - shomen uchi - ikkyo",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/suwari_waza/shomen_uchi/ikkyo/"
       },
       2 : {
         "label" : "suwari waza - shomen uchi - nikyo",
@@ -73,6 +75,7 @@ matrix.push({
       },
       10 : {
         "label" : "suwari waza - shomen uchi - irimi nage",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/suwari_waza/shomen_uchi/irimi_nage/"
       }
     },
 
