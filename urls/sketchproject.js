@@ -282,6 +282,7 @@ matrix.push({
       },
       12 : {
         "label" : "tachi waza - ryote dori - tenchi nage",
+        "url" : "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/ryote_dori/tenchi_nage/"
       },
       15 : {
         "label" : "tachi waza - ryote dori - ude kime nage",
