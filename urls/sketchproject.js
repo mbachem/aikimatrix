@@ -448,6 +448,7 @@ matrix.push({
       },
       10 : {
         "label" : "tachi waza - yokomen uchi - irmi nage",
+        "url": "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/yokomen_uchi/irimi_nage/"
       },
       15 : {
         "label" : "tachi waza - yokomen uchi - ude kime nage",
