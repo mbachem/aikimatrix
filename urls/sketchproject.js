@@ -442,6 +442,7 @@ matrix.push({
       },
       8 : {
         "label" : "tachi waza - yokomen uchi - kote gaeshi",
+        "url": "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/yokomen_uchi/kote_gaeshi/"
       },
       9 : {
         "label" : "tachi waza - yokomen uchi - shiho nage",
@@ -454,8 +455,7 @@ matrix.push({
         "label" : "tachi waza - yokomen uchi - ude kime nage",
       },
       16 : {
-        "label" : "tachi waza - yokomen uchi - koshi nage",
-        "url": "https://mbachem.github.io/aikimatrix/sketch/tachi_waza/yokomen_uchi/kote_gaeshi/"
+        "label" : "tachi waza - yokomen uchi - koshi nage"
       },
       18 : {
         "label" : "tachi waza - yokomen uchi - kokyu nage",
